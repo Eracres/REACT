@@ -95,11 +95,11 @@ Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplic
 
 ```
 mi-app/
-├── public/ → contiene el HTML principal (index.html)
-├── src/ → aquí irá todo tu código React
-│ ├── App.js → componente principal de la aplicación
-│ └── index.js → punto de entrada que renderiza App.js
-├── package.json → contiene dependencias y scripts
+	├── public/ → contiene el HTML principal (index.html)
+	├── src/ → aquí irá todo tu código React
+	│ ├── App.js → componente principal de la aplicación
+	│ └── index.js → punto de entrada que renderiza App.js
+	├── package.json → contiene dependencias y scripts
 ```
 
 🧼 Recomendación como desarrollador:
