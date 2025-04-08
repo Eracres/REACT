@@ -2,10 +2,10 @@
 
 ## 🗂️ Temario General del Curso
 
-1. Introducción a React  
-2. Configuración del entorno de desarrollo  
-3. JSX: Sintaxis especial de React  
-4. Componentes (Funcionales y de Clase)  
+1. [Introducción a React ](#modulo-1-Introducción-a-React) 
+2. [Configuración del entorno de desarrollo ](#modulo-2-Configuración-del-Entorno-de-Desarrollo) 
+3. [JSX: Sintaxis especial de React](#modulo-3-JSX-Sintaxis-especial-de-React)  
+4. [Componentes (Funcionales y de Clase)](#modulo-4-componentes-funcionales-y-de-clase)
 5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
 6. [Estado (useState)](#modulo-6-estado-con-usestate)
 7. Eventos en React  
@@ -22,7 +22,7 @@
 18. Deploy de la aplicación React  
 
 ---
-
+<a name="modulo-1-Introducción-a-React"></a>
 ## 📘 Módulo 1: Introducción a React
 
 ### ❓ ¿Qué es React?
@@ -52,7 +52,7 @@ Esto sería un componente muy básico en React.
 Crea un componente llamado Saludo que muestre el mensaje, "¡Bienvenido al curso de React!".
 
 ---
-
+<a name="modulo-2-Configuración-del-Entorno-de-Desarrollo"></a>
 ## 📘 Módulo 2: Configuración del Entorno de Desarrollo
 
 ### ❓ ¿Cómo empezar con React?
@@ -129,7 +129,7 @@ Eso significa que lo que pongas dentro del componente App se verá en el navegad
 4. Abre tu navegador y verifica que se vea correctamente el mensaje.
 
 ---
-
+<a name="modulo-3-JSX-Sintaxis-especial-de-React"></a>
 ## 📘 Módulo 3: JSX – Sintaxis especial de React
 
 ### ❓ ¿Qué es JSX?
@@ -172,7 +172,7 @@ Crea un componente llamado BienvenidaJSX que:
 3. El texto debe construirse utilizando interpolación con {}.
 
 ---
-
+<a name="modulo-4-componentes-funcionales-y-de-clase"></a>
 ## 📘 Módulo 4: Componentes (Funcionales y de Clase)
 
 ### ❓ ¿Qué es un componente en React?
