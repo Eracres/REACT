@@ -94,15 +94,14 @@ Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplic
 ### 🗂️ Estructura básica del proyecto
 
 ```
-mi-app/
-├── public/ → contiene el HTML principal (index.html)
-├── src/ → aquí irá todo tu código React
-│ ├── App.js → componente principal de la aplicación
-│ └── index.js → punto de entrada que renderiza App.js
-├── package.json → contiene dependencias y scripts
+📦 mi-app
+├── 📁 public               → Contiene el HTML principal (`index.html`)
+│   └── 📄 index.html
+├── 📁 src                  → Aquí va todo tu código React
+│   ├── 📄 App.js           → Componente principal de la aplicación
+│   └── 📄 index.js         → Punto de entrada que renderiza `App.js`
+├── 📄 package.json         → Dependencias y scripts del proyecto
 ```
-
-<pre lang="markdown"> ``` mi-app/ ├── public/ → contiene el HTML principal (index.html) ├── src/ → aquí irá todo tu código React │ ├── App.js → componente principal de la aplicación │ └── index.js → punto de entrada que renderiza App.js ├── package.json → contiene dependencias y scripts ``` </pre>
 
 ### 🧼 Recomendación como desarrollador:
 
