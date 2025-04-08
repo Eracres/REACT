@@ -211,7 +211,7 @@ class TarjetaClase extends React.Component {
 }
 ```
 
-Hoy en día se recomienda usar componentes funcionales con [hooks](#📘-módulo-6-estado-con-usestate) porque son más sencillos y modernos.
+Hoy en día se recomienda usar componentes funcionales con [hooks](#módulo-6-estado-con-usestate) porque son más sencillos y modernos.
 
 ### 📢 Convenciones
 
