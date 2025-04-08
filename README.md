@@ -289,7 +289,7 @@ Uso del componente:
 4. Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
 
 ---
-
+<a name="modulo-6-estado-con-usestate"></a>
 ## 📘 Módulo 6: Estado con useState
 
 ### ¿Qué es el estado en React?
