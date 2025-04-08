@@ -102,6 +102,8 @@ mi-app/
 ├── package.json → contiene dependencias y scripts
 ```
 
+<pre lang="markdown"> ``` mi-app/ ├── public/ → contiene el HTML principal (index.html) ├── src/ → aquí irá todo tu código React │ ├── App.js → componente principal de la aplicación │ └── index.js → punto de entrada que renderiza App.js ├── package.json → contiene dependencias y scripts ``` </pre>
+
 ### 🧼 Recomendación como desarrollador:
 
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
