@@ -22,20 +22,21 @@
 18. Deploy de la aplicación React  
 
 ---
+
 ## 📘 Módulo 1: Introducción a React
 
 ### ❓ ¿Qué es React?
 
 React es una biblioteca de JavaScript creada por Facebook para construir interfaces de usuario. Su objetivo principal es crear aplicaciones web reactivas, eficientes y modulares.
 
-💡 Ventajas clave:
+### 💡 Ventajas clave:
 - Componentes reutilizables
 - Virtual DOM (mejora el rendimiento)
 - Flujo de datos unidireccional (unidirectional data flow)
 - Ideal para SPAs (Single Page Applications)
 
 
-### 🧪 Ejemplo simple
+### 🧪 Ejemplo simple:
 
 ```jsx
 function HolaMundo() {
@@ -54,8 +55,8 @@ Crea un componente llamado Saludo que muestre el mensaje:
 ```
 
 ---
+
 ## 📘 Módulo 2: Configuración del Entorno de Desarrollo
----
 
 ### ❓ ¿Cómo empezar con React?
 
@@ -119,25 +120,26 @@ Eso significa que lo que pongas dentro del componente App se verá en el navegad
 
 ### 🎯 Ejercicio para ti:
 
-Crea una nueva aplicación React con npx create-react-app.
-Limpia el contenido de App.js.
-Pega el componente HolaMundo del 📘 Módulo 1.
-Abre tu navegador y verifica que se vea correctamente el mensaje.
+1. Crea una nueva aplicación React con npx create-react-app.
+2. Limpia el contenido de App.js.
+3. Pega el componente HolaMundo del 📘 Módulo 1.
+4. Abre tu navegador y verifica que se vea correctamente el mensaje.
 
 ---
+
 ## 📘 Módulo 3: JSX – Sintaxis especial de React
----
 
 ### ❓ ¿Qué es JSX?
 
-JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.
+JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.+
+
 En lugar de separar la lógica y la interfaz como en otros frameworks, React propone una mezcla controlada: combinamos lógica y estructura de forma declarativa usando JSX.
 
 ### 🔎 ¿Por qué es útil JSX?
 
-Nos permite ver visualmente la estructura del componente.
-Es más legible y cercano al HTML tradicional.
-Aumenta la productividad al unir lógica y presentación en un solo lugar.
+- Nos permite ver visualmente la estructura del componente.
+- Es más legible y cercano al HTML tradicional.
+- Aumenta la productividad al unir lógica y presentación en un solo lugar.
 
 ### 🚨 Importante:
 
@@ -146,84 +148,76 @@ En lugar de class, se usa className.
 Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
 Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
-### 🧪 Ejemplo simple
+### 🧪 Ejemplo simple:
 
 ```jsx
 function ComponenteJSX() {
  const nombre = "React";
- return (
-
-# Hola desde {nombre}
-
-¡Esto es JSX funcionando!
-
-
-
- );
+ return (# Hola desde {nombre} ¡Esto es JSX funcionando!);
 }
 ```
+
 Este componente mezcla código JavaScript (const nombre = "React") con etiquetas JSX (parecidas a HTML). Lo que aparece entre llaves {} dentro del JSX es interpretado como una expresión de JavaScript.
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
 Crea un componente llamado BienvenidaJSX que:
-Declare una variable usuario = "María".
-Devuelva un div con un saludo que diga: "Hola, María. Bienvenida a React".
-El texto debe construirse utilizando interpolación con {}.
+1. Declare una variable usuario = "María".
+2. Devuelva un div con un saludo que diga: "Hola, María. Bienvenida a React".
+3. El texto debe construirse utilizando interpolación con {}.
+
+---
 
 ## 📘 Módulo 4: Componentes (Funcionales y de Clase)
 
-### ¿Qué es un componente en React?
+### ❓ ¿Qué es un componente en React?
 
 Un componente es una pieza reutilizable de la interfaz de usuario. En React, todo se basa en componentes. Puedes pensar en ellos como bloques de LEGO que se combinan para construir toda tu aplicación.
+
 Cada componente:
-Encapsula su propia lógica y vista.
-Se puede reutilizar múltiples veces.
-Puede recibir datos mediante props y manejar su propio estado.
+* Encapsula su propia lógica y vista.
+* Se puede reutilizar múltiples veces.
+* Puede recibir datos mediante props y manejar su propio estado.
 
-🧱 Tipos de componentes
+### 🧱 Tipos de componentes
+
 1. Componentes funcionales (los más comunes actualmente)
+
 Son funciones de JavaScript que devuelven JSX. Se utilizan junto con hooks (useState, useEffect, etc).
-```jsx
-function Saludo() {
- return ## ¡Bienvenido al curso de React!
-
-;
-}
-```
-2. Componentes de clase (en desuso, pero útiles de conocer)
-Son clases que extienden React.Component y tienen un método render().
-import React, { Component } from 'react';
-
-class SaludoClase extends Component {
- render() {
- return ## ¡Hola desde un componente de clase!
-
-;
- }
-}
-Hoy en día se recomienda usar componentes funcionales con hooks porque son más sencillos y modernos.
-
-
-**💡 Convenciones**
-
-Los componentes deben tener su nombre en mayúscula inicial (ej: Saludo, no saludo).
-Un archivo por componente es una buena práctica (por ejemplo, Saludo.js).
-Siempre deben retornar un solo elemento padre (por eso usamos  o React fragments).
-
-#### Ejemplo mío
 
 ```jsx
 function Tarjeta() {
- return (
+  return <p>Componente funcional</p>;
+}
+```
 
-### React es genial 😎
+2. Componentes de clase (en desuso, pero útiles de conocer)
+   
+Son clases que extienden ```React.Component``` y tienen un método ```render()```.
 
-Este es un componente funcional
+```import React, { Component } from 'react'```;
 
+```jsx
+class TarjetaClase extends React.Component {
+  render() {
+    return <p>Componente de clase</p>;
+  }
+}
+```
 
+Hoy en día se recomienda usar componentes funcionales con hooks porque son más sencillos y modernos.
 
- );
+**💡 Convenciones**
+
+* Los componentes deben tener su nombre en mayúscula inicial (ej: Saludo, no saludo).
+* Un archivo por componente es una buena práctica (por ejemplo, Saludo.js).
+* Siempre deben retornar un solo elemento padre (por eso usamos  o React fragments).
+
+### 🧪 Ejemplo simple:
+
+```jsx
+function Tarjeta() {
+ return (### React es genial 😎 Este es un componente funcional);
 }
 ```
 Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML:
@@ -235,6 +229,8 @@ Dentro de él, muestra lo siguiente:
 Un título ##  con el texto “Perfil del usuario”.
 Un párrafo  con el nombre ficticio de un usuario.
 Importa y usa el componente dentro de App.js.
+
+---
 
 ## 📘 Módulo 5: Props (Propiedades entre componentes)
 
@@ -283,6 +279,8 @@ Recibirá por props: nombre, precio y disponible.
 Mostrará la información dentro de un div con un h3 y dos párrafos.
 Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
 
+---
+
 ## 📘 Módulo 6: Estado con useState
 
 ### ¿Qué es el estado en React?
@@ -328,6 +326,8 @@ Usa useState para llevar un conteo de "me gusta".
 Agrega un botón con el texto “👍 Me gusta”.
 Cada clic debe incrementar el número de likes.
 Muestra el texto: “Este post tiene X me gusta”.
+
+---
 
 ## 📘 Módulo 7: Eventos en React
 
@@ -383,6 +383,8 @@ Crea un componente llamado FormularioCorreo.
 Tendrá un input para escribir el correo electrónico.
 Muestra el texto debajo en tiempo real: "Tu correo es: [correo]".
 Usa el evento onChange para capturar el valor.
+
+---
 
 ## 📘 Módulo 8: useEffect – Ciclo de vida y efectos secundarios
 
@@ -444,6 +446,8 @@ function ContadorAutomatico() {
 Crea un componente llamado Reloj.
 Usa useEffect para actualizar la hora actual cada segundo.
 Muestra el resultado en pantalla con formato: HH:MM:SS.
+
+---
 
 ## 📘 Módulo 9: Estilos en React
 
@@ -534,6 +538,8 @@ Texto en rojo oscuro
 Padding de 1rem
 Haz que se muestre en pantalla al renderizar el componente.
 
+---
+
 ## 📘 Módulo 10: Listas y Claves
 
 ### ¿Qué son las listas en React?
@@ -593,6 +599,8 @@ Crea un componente llamado ListaTareas.
 Declara un array de objetos con id y texto.
 Muestra las tareas en una lista .
 Usa key={tarea.id} en cada * .
+
+---
 
 ## 📘 Módulo 11: Formularios en React
 
@@ -661,6 +669,8 @@ Al hacer submit, muestra un alert con los datos.
 Usa useState para controlar los valores.
 Limpia el formulario después de enviarlo.
 
+---
+
 ## 📘 Módulo 12: Lifting State Up y comunicación entre componentes
 
 
@@ -719,6 +729,8 @@ Crea un componente padre llamado FormularioColor.
 Este tendrá un input donde el usuario escriba un color (rojo, blue, etc.).
 Pasa ese valor a un componente hijo llamado CajaColor que pinte un div con el color recibido.
 Usa useState y props para conectar ambos.
+
+---
 
 ## 📘 Módulo 13: React Router – Navegación entre páginas
 
@@ -798,6 +810,8 @@ Configura rutas /, /servicios y /contacto.
 Crea una barra de navegación con  para cambiar entre ellos.
 Bonus: agrega estilos para destacar la página actual.
 
+---
+
 ## 📘 Módulo 14: Consumo de APIs con fetch o Axios
 
 ### ¿Qué es una API?
@@ -851,6 +865,8 @@ Crea un componente ListaPosts.
 Usa fetch para obtener datos de https://jsonplaceholder.typicode.com/posts.
 Muestra los títulos (title) en pantalla.
 Agrega un mensaje de "Cargando..." mientras se obtienen los datos.
+
+---
 
 ## 📘 Módulo 15: Custom Hooks
 
@@ -917,6 +933,8 @@ Crea un hook llamado useContador que:
 Reciba un valor inicial
 Devuelva el valor y una función para incrementarlo
 Úsalo dentro de un componente llamado ContadorPersonalizado.
+
+---
 
 ## 📘 Módulo 16: Context API – Manejo global del estado
 
@@ -993,6 +1011,8 @@ Crea un contexto llamado UsuarioContexto.
 En el proveedor, define un nombre de usuario ("Juan").
 Crea un componente PerfilUsuario que muestre: “Bienvenido, Juan”.
 Usa useContext para obtener el nombre desde el contexto.
+
+---
 
 ## 📘 Módulo 17: Introducción a Redux (opcional)
 
@@ -1086,6 +1106,7 @@ Crea un contador con Redux Toolkit.
 Agrega botones para +1, -1, y reiniciar.
 Usa useSelector y useDispatch para manejarlo.
 
+---
 
 ## 📘 Módulo 18: Deploy de la aplicación React
 
