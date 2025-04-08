@@ -49,10 +49,7 @@ Esto sería un componente muy básico en React.
 
 ### 🎯 Ejercicio para ti:
 
-Crea un componente llamado Saludo que muestre el mensaje:
-```
-¡Bienvenido al curso de React!
-```
+Crea un componente llamado Saludo que muestre el mensaje, "¡Bienvenido al curso de React!".
 
 ---
 
@@ -65,7 +62,12 @@ Create React App es un scaffolding tool que genera un proyecto React completo, l
 
 ### 🛠️ Cómo crear tu primer proyecto React:
 
-* Instalar Node.js y npm
+* Instalar Node.js y npm, para comprobar si estan instalados, usar estos comandos:
+
+ ```bash
+node -v
+npm -v
+``` 
 
 * Abre tu terminal (en VS Code o donde prefieras).
 
@@ -132,7 +134,7 @@ Eso significa que lo que pongas dentro del componente App se verá en el navegad
 
 ### ❓ ¿Qué es JSX?
 
-JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.+
+JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.
 
 En lugar de separar la lógica y la interfaz como en otros frameworks, React propone una mezcla controlada: combinamos lógica y estructura de forma declarativa usando JSX.
 
@@ -145,9 +147,10 @@ En lugar de separar la lógica y la interfaz como en otros frameworks, React pro
 ### 🚨 Importante:
 
 JSX no es HTML real, aunque lo parezca. Por ejemplo:
-En lugar de class, se usa className.
-Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
-Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
+
+* En lugar de class, se usa className.
+* Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
+* Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
 ### 🧪 Ejemplo simple:
 
@@ -158,11 +161,12 @@ function ComponenteJSX() {
 }
 ```
 
-Este componente mezcla código JavaScript (const nombre = "React") con etiquetas JSX (parecidas a HTML). Lo que aparece entre llaves {} dentro del JSX es interpretado como una expresión de JavaScript.
+Este componente mezcla código JavaScript (```const nombre = "React"```) con etiquetas JSX (parecidas a HTML). Lo que aparece entre llaves {} dentro del JSX es interpretado como una expresión de JavaScript.
 
 ### 🎯 Ejercicio para ti:
 
 Crea un componente llamado BienvenidaJSX que:
+
 1. Declare una variable usuario = "María".
 2. Devuelva un div con un saludo que diga: "Hola, María. Bienvenida a React".
 3. El texto debe construirse utilizando interpolación con {}.
@@ -176,6 +180,7 @@ Crea un componente llamado BienvenidaJSX que:
 Un componente es una pieza reutilizable de la interfaz de usuario. En React, todo se basa en componentes. Puedes pensar en ellos como bloques de LEGO que se combinan para construir toda tu aplicación.
 
 Cada componente:
+
 * Encapsula su propia lógica y vista.
 * Se puede reutilizar múltiples veces.
 * Puede recibir datos mediante props y manejar su propio estado.
@@ -208,7 +213,7 @@ class TarjetaClase extends React.Component {
 
 Hoy en día se recomienda usar componentes funcionales con hooks porque son más sencillos y modernos.
 
-**💡 Convenciones**
+### 📢 Convenciones
 
 * Los componentes deben tener su nombre en mayúscula inicial (ej: Saludo, no saludo).
 * Un archivo por componente es una buena práctica (por ejemplo, Saludo.js).
@@ -223,14 +228,14 @@ function Tarjeta() {
 ```
 Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML:
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado PerfilUsuario.
-Dentro de él, muestra lo siguiente:
-Un título ##  con el texto “Perfil del usuario”.
-Un párrafo  con el nombre ficticio de un usuario.
-Importa y usa el componente dentro de App.js.
-
+1. Crea un componente llamado PerfilUsuario.
+2. Dentro de él, muestra lo siguiente:
+   2.1. Un título ##  con el texto “Perfil del usuario”.
+   2.2. Un párrafo  con el nombre ficticio de un usuario.
+   2.3. Importa y usa el componente dentro de App.js.
+   
 ---
 
 ## 📘 Módulo 5: Props (Propiedades entre componentes)
