@@ -26,9 +26,10 @@
 16. Context API (Manejo global del estado)  
 17. Introducción a Redux (opcional, si quieres profundizar)  
 18. Deploy de la aplicación React  
----
 
+---
 ## 📘 Módulo 1: Introducción a React
+---
 
 ### ❓ ¿Qué es React?
 
@@ -52,14 +53,16 @@ function HolaMundo() {
 Esto sería un componente muy básico en React.
 
 
-### 🧠 Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
 Crea un componente llamado Saludo que muestre el mensaje:
 ```
 ¡Bienvenido al curso de React!
 ```
 
+---
 ## 📘 Módulo 2: Configuración del Entorno de Desarrollo
+---
 
 ### ❓ ¿Cómo empezar con React?
 
@@ -91,58 +94,66 @@ npm start
 
 Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplicación React funcionando. ¡Ya tienes tu primer entorno ⚛️ montado!
 
-🗂️ Estructura básica del proyecto
+### 🗂️ Estructura básica del proyecto
 
 ```
 mi-app/
-	├── public/ → contiene el HTML principal (index.html)
-	├── src/ → aquí irá todo tu código React
-	│ ├── App.js → componente principal de la aplicación
-	│ └── index.js → punto de entrada que renderiza App.js
-	├── package.json → contiene dependencias y scripts
+├── public/ → contiene el HTML principal (index.html)
+├── src/ → aquí irá todo tu código React
+│ ├── App.js → componente principal de la aplicación
+│ └── index.js → punto de entrada que renderiza App.js
+├── package.json → contiene dependencias y scripts
 ```
 
-🧼 Recomendación como desarrollador:
+### 🧼 Recomendación como desarrollador:
+
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
 
-#### Ejemplo de inicio:
+### 🧪 Ejemplo de inicio:
 
 En index.js deberías tener algo como esto:
+
+```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render();
+```
+
 Eso significa que lo que pongas dentro del componente App se verá en el navegador.
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
 Crea una nueva aplicación React con npx create-react-app.
 Limpia el contenido de App.js.
-Pega el componente HolaMundo del Módulo 1.
+Pega el componente HolaMundo del 📘 Módulo 1.
 Abre tu navegador y verifica que se vea correctamente el mensaje.
 
+---
 ## 📘 Módulo 3: JSX – Sintaxis especial de React
+---
 
-### ¿Qué es JSX?
+### ❓ ¿Qué es JSX?
 
 JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.
 En lugar de separar la lógica y la interfaz como en otros frameworks, React propone una mezcla controlada: combinamos lógica y estructura de forma declarativa usando JSX.
 
-**🔎 ¿Por qué es útil JSX?**
+### 🔎 ¿Por qué es útil JSX?
 
 Nos permite ver visualmente la estructura del componente.
 Es más legible y cercano al HTML tradicional.
 Aumenta la productividad al unir lógica y presentación en un solo lugar.
 
-🚨 Importante:
+### 🚨 Importante:
+
 JSX no es HTML real, aunque lo parezca. Por ejemplo:
 En lugar de class, se usa className.
 Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
 Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
-#### Ejemplo mío (muy simple):
+### 🧪 Ejemplo simple
 
 ```jsx
 function ComponenteJSX() {
