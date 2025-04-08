@@ -505,11 +505,7 @@ Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
 
 Puedes crear un archivo ```.css``` y importarlo en el componente.
 
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS3" width="40"/> CSS:
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo_and_wordmark.svg" alt="CSS3 Logo" width="60"/>
-
-
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.png" alt="CSS3 Logo" width="40"/>
 
 ```css
 /* archivo: estilos.css */
@@ -519,7 +515,7 @@ Puedes crear un archivo ```.css``` y importarlo en el componente.
 }
 ```
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="60"/>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript Logo" width="40"/>
 
  JS:
 
