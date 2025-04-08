@@ -1,4 +1,5 @@
-![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
+⚛️ **React**
+
 
 # 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
 
