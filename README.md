@@ -505,10 +505,7 @@ Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
 
 Puedes crear un archivo ```.css``` y importarlo en el componente.
 
-![CSS3](https://raw.githubusercontent.com/github/explore/main/topics/css/css.png)
-
-
-CSS:
+<img src="https://raw.githubusercontent.com/github/explore/main/topics/css/css.png" alt="CSS3" width="40"/> CSS:
 
 ```css
 /* archivo: estilos.css */
