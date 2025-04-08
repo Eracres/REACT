@@ -1,6 +1,5 @@
-<p align="center">
- 	![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
-</p>
+![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
+
 
 # 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
 
