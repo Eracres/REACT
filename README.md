@@ -6,8 +6,8 @@
 2. Configuración del entorno de desarrollo  
 3. JSX: Sintaxis especial de React  
 4. Componentes (Funcionales y de Clase)  
-5. Props (Propiedades entre componentes)  
-6. Estado (useState)  
+5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
+6. [Estado (useState)](#modulo-6-estado-con-usestate)
 7. Eventos en React  
 8. Ciclo de vida y useEffect  
 9. Estilos en React  
@@ -227,7 +227,7 @@ function Tarjeta() {
 }
 ```
 
-Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML:
+Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML
 
 ### 🎯 Ejercicio para ti:
 
@@ -238,7 +238,7 @@ Este componente puede usarse dentro de otro componente como si fuera una etiquet
 * Importa y usa el componente dentro de App.js.
 
 ---
-
+<a name="modulo-5-props-propiedades-entre-componentes"></a>
 ## 📘 Módulo 5: Props (Propiedades entre componentes)
 
 ### ❓ ¿Qué son las Props?
