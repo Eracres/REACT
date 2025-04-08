@@ -62,13 +62,13 @@ Create React App es un scaffolding tool que genera un proyecto React completo, l
 
 ### 🛠️ Requisitos previos:
 Antes de comenzar, asegúrate de tener instalado:
- (incluye npm)
-Un editor de código (como Visual Studio Code)
-Puedes comprobar que los tienes instalados ejecutando:
-```
-node -v
-npm -v
-```
+	1. Instala Node.js y npm.
+	2. En la terminal:  
+	```bash
+	npx create-react-app mi-app
+	cd mi-app
+	npm start
+	```
 
 ### 🚀 Cómo crear tu primer proyecto React
 
