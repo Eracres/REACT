@@ -2,27 +2,27 @@
 
 ## 🗂️ Temario General del Curso
 
-1. [Introducción a React ](#modulo-1-Introducción-a-React) 
-2. [Configuración del entorno de desarrollo ](#modulo-2-Configuración-del-Entorno-de-Desarrollo) 
-3. [JSX: Sintaxis especial de React](#modulo-3-JSX-Sintaxis-especial-de-React)  
+1. [Introducción a React ](#modulo-1-introducción-a-React) 
+2. [Configuración del entorno de desarrollo ](#modulo-2-configuración-del-entorno-de-desarrollo) 
+3. [JSX: Sintaxis especial de React](#modulo-3-jsx-sintaxis-especial-de-react)  
 4. [Componentes (Funcionales y de Clase)](#modulo-4-componentes-funcionales-y-de-clase)
 5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
 6. [Estado (useState)](#modulo-6-estado-con-usestate)
 7. [Eventos en React](#modulo-7-Eventos-en-React)
 8. [Ciclo de vida y useEffect](#modulo-8-useEffect-ciclo-de-vida-y-efectos-secundarios) 
 9. [Estilos en React](#modulo-9-estilos-en-react)
-10. [Listas y claves  ](#)
-11. [Formularios en React  ](#)
-12. [Lifting State Up y comunicación entre componentes ](#)
-13. [React Router (Navegación entre páginas)  ](#)
-14. [Consumo de APIs con fetch o Axios ](#)
-15. [Custom Hooks ](#)
-16. [Context API (Manejo global del estado)  ](#)
-17. [Introducción a Redux (opcional, si quieres profundizar)  ](#)
-18. [Deploy de la aplicación React  ](#)
+10. [Listas y claves](#modulo-10-listas-y-claves)
+11. [Formularios en React](#modulo-11-formularios-en-react)
+12. [Lifting State Up y comunicación entre componentes](#modulo-12-lifting-state-up-y-comunicacion-entre-componentes)
+13. [React Router (Navegación entre páginas)](#modulo-13-react-router-navegacion-entre-paginas)
+14. [Consumo de APIs con fetch o Axios](#modulo-14-consumo-de-apis-con-fetch-o-axios)
+15. [Custom Hooks](#modulo-15-custom-hooks)
+16. [Context API (Manejo global del estado)](#modulo-16-context-api)
+17. [Introducción a Redux (opcional, si quieres profundizar)](#modulo-17-introduccion-a-redux)
+18. [Deploy de la aplicación React](#modulo-18-deploy-de-la-aplicacion-react)
 
 ---
-<a name="modulo-1-Introducción-a-React"></a>
+<a name="modulo-1-introducción-a-React"></a>
 ## 📘 Módulo 1: Introducción a React
 
 ### ❓ ¿Qué es React?
@@ -36,7 +36,7 @@ React es una biblioteca de JavaScript creada por Facebook para construir interfa
 - Ideal para SPAs (Single Page Applications)
 
 
-### 🧪 Ejemplo simple:
+### 🧪 Ejemplo básico:
 
 ```jsx
 function HolaMundo() {
@@ -52,7 +52,7 @@ Esto sería un componente muy básico en React.
 Crea un componente llamado Saludo que muestre el mensaje, "¡Bienvenido al curso de React!".
 
 ---
-<a name="modulo-2-Configuración-del-Entorno-de-Desarrollo"></a>
+<a name="modulo-2-configuración-del-entorno-de-desarrollo"></a>
 ## 📘 Módulo 2: Configuración del Entorno de Desarrollo
 
 ### ❓ ¿Cómo empezar con React?
@@ -106,7 +106,7 @@ mi-app/
 
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
 
-### 🧪 Ejemplo de inicio:
+### 🧪 Ejemplo básico:
 
 En index.js deberías tener algo como esto:
 
@@ -129,7 +129,7 @@ Eso significa que lo que pongas dentro del componente App se verá en el navegad
 4. Abre tu navegador y verifica que se vea correctamente el mensaje.
 
 ---
-<a name="modulo-3-JSX-Sintaxis-especial-de-React"></a>
+<a name="modulo-3-jsx-sintaxis-especial-de-react"></a>
 ## 📘 Módulo 3: JSX – Sintaxis especial de React
 
 ### ❓ ¿Qué es JSX?
@@ -152,7 +152,7 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 * Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
 * Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
-### 🧪 Ejemplo simple:
+### 🧪 Ejemplo básico:
 
 ```jsx
 function ComponenteJSX() {
@@ -221,7 +221,7 @@ Hoy en día se recomienda usar componentes funcionales con [hooks](#modulo-6-est
 * Un archivo por componente es una buena práctica (por ejemplo, Saludo.js).
 * Siempre deben retornar un solo elemento padre (por eso usamos  o React fragments).
 
-### 🧪 Ejemplo simple:
+### 🧪 Ejemplo básico:
 
 ```jsx
 function Tarjeta() {
@@ -281,7 +281,7 @@ Los tres mostrarán un mensaje personalizado gracias al valor de props.nombre.
 *Las props son de solo lectura. No debes modificarlas dentro del componente.
 *Puedes pasar strings, números, funciones, objetos e incluso otros componentes como props.
 
-### 🧪 Ejemplo simple:
+### 🧪 Ejemplo básico:
 
 ```jsx
 function Usuario(props) {
@@ -330,7 +330,7 @@ const [estado, setEstado] = useState(valorInicial);
 * ```useState(valorInicial)```: le pasamos el valor con el que queremos empezar.
 
 
-### 🧪 Ejemplo simple: un contador
+### 🧪 Ejemplo básico: un contador
 
 ```jsx
 import { useState } from "react";
@@ -374,7 +374,7 @@ Se escriben en camelCase: ```onClick```, ```onChange```, ```onSubmit```, etc.
 Se pasan funciones como manejadores de eventos.
 Puedes usar funciones declaradas o funciones flecha ```(arrow functions)```.
 
-### 🧪 Ejemplo simple: botón que muestra una alerta
+### 🧪 Ejemplo básico: botón que muestra una alerta
 
 ```jsx
 function EventoClick() {
@@ -450,7 +450,7 @@ useEffect(() => {
 * Si pasas un array vacío ```[]```, el efecto se ejecuta una sola vez al montar el componente (como ```componentDidMount```).
 * Si incluyes variables dentro del array, se ejecutará cada vez que esas variables cambien.
 
-### 🧪 Ejemplo simple: mensaje en consola al montar
+### 🧪 Ejemplo básico: mensaje en consola al montar
 
 import { useEffect } from "react";
 
@@ -463,7 +463,7 @@ function Temporizador() {
  return Observa la consola;
 }
 ```
-### 🧪 Ejemplo simple: contador automático
+### 🧪 Ejemplo básico: contador automático
 
 import { useEffect, useState } from "react";
 
@@ -496,16 +496,17 @@ function ContadorAutomatico() {
 ### ❓ ¿Cómo se aplican estilos en React?
 
 React no impone un único método para aplicar estilos. Puedes usar:
-CSS tradicional (importado)
-Estilos en línea (inline styles)
-CSS Modules
-Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
+
+1. CSS tradicional (importado)
+2. Estilos en línea (inline styles)
+3. CSS Modules
+4. Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
 
 #### 🎨 **Opción 1: CSS tradicional**
 
 Puedes crear un archivo ```.css``` y importarlo en el componente.
 
-<img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3 Logo" width="50"/>
+<img src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000" alt="CSS3 Logo" width="60"/>
 
 ```css
 /* archivo: estilos.css */
@@ -527,7 +528,9 @@ function Encabezado() {
 ```
 
 #### 🖌️ **Opción 2: Estilos en línea (inline)**
+
 Son útiles para estilos rápidos y dinámicos.
+
 ```jsx
 function Boton() {
  const estilo = {
@@ -543,32 +546,35 @@ function Boton() {
 ```
 Nota: los nombres de propiedades se escriben en camelCase (por ejemplo, backgroundColor, no background-color).
 
-
 #### 🧩 **Opción 3: CSS Modules**
 
 Permite aplicar estilos aislados por componente (evita conflictos).
+
+```jsx
 // archivo: Titulo.module.css
 .tituloEspecial {
  color: green;
  text-transform: uppercase;
 }
+```
+
+```jsx
 // componente: Titulo.jsx
 import styles from "./Titulo.module.css";
 
-```jsx
+
 function Titulo() {
  return Hola desde CSS Module;
 }
 ```
 
+### 💡 ¿Cuál elegir?
 
-**💡 ¿Cuál elegir?**
-
-Para proyectos pequeños: CSS tradicional o inline.
-Para grandes: CSS Modules o frameworks modernos.
+* Para proyectos pequeños: CSS tradicional o inline.
+* Para grandes: CSS Modules o frameworks modernos.
 
 
-#### Ejemplo mío
+### 🧪 Ejemplo básico:
 
 ```jsx
 function MensajeEstilizado() {
@@ -579,33 +585,33 @@ function MensajeEstilizado() {
  );
 }
 ```
-#### Ejercicio para ti:
 
-Crea un componente llamado Alerta.
-Aplica estilos en línea para que se vea como un mensaje de advertencia:
-Fondo amarillo
-Texto en rojo oscuro
-Padding de 1rem
-Haz que se muestre en pantalla al renderizar el componente.
+### 🎯 Ejercicio para ti:
+
+1. Crea un componente llamado ```Alerta```.
+2. Aplica estilos en línea para que se vea como un mensaje de advertencia:
+* Fondo amarillo
+* Texto en rojo oscuro
+* Padding de ```1rem```
+3. Haz que se muestre en pantalla al renderizar el componente.
 
 ---
-
+<a name="modulo-10-listas-y-claves"></a>
 ## 📘 Módulo 10: Listas y Claves
 
-### ¿Qué son las listas en React?
+### ❓ ¿Qué son las listas en React?
 
-En React puedes mostrar listas de elementos (como productos, tareas, usuarios, etc.) utilizando el método .map() de JavaScript para recorrer un array y crear un componente o elemento por cada dato.
+En React puedes mostrar listas de elementos (como productos, tareas, usuarios, etc.) utilizando el método ```.map()``` de JavaScript para recorrer un array y crear un componente o elemento por cada dato.
 
-#### ¿Qué son las "claves" o keys?
+#### ❓ ¿Qué son las "claves" o keys?
 
 Cuando renderizas listas, React necesita identificar cada elemento individual. Por eso, se requiere una key única para cada uno, así puede saber cuál ha cambiado, agregado o eliminado.
 Si no usas keys, React lanzará una advertencia y tu app puede comportarse de forma inesperada al actualizarse.
 
-#### Ejemplo básico: lista de frutas
-
+### 🧪 Ejemplo básico: lista de frutas
+```jsx
 const frutas = ["🍎 Manzana", "🍌 Banana", "🍇 Uva", "🍊 Naranja"];
 
-```jsx
 function ListaFrutas() {
  return (
 
@@ -618,17 +624,18 @@ function ListaFrutas() {
  );
 }
 ```
-En este ejemplo usamos el índice del array como key (key={index}), aunque lo mejor es usar un id único si lo tienes disponible.
+En este ejemplo usamos el índice del array como key (```key={index}```), aunque lo mejor es usar un id único si lo tienes disponible.
 
-**📦 Ejemplo con objetos**
+### 📦 Ejemplo con objetos:
 
+```jsx
 const productos = [
  { id: 1, nombre: "Camisa", precio: 25 },
  { id: 2, nombre: "Pantalón", precio: 40 },
  { id: 3, nombre: "Zapatos", precio: 60 }
 ];
 
-```jsx
+
 function ListaProductos() {
  return (
 
@@ -643,37 +650,37 @@ function ListaProductos() {
 }
 ```
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado ListaTareas.
-Declara un array de objetos con id y texto.
-Muestra las tareas en una lista .
-Usa key={tarea.id} en cada * .
-
+1. Crea un componente llamado ```ListaTareas```.
+2. Declara un array de objetos con ```id``` y ```texto```.
+3. Muestra las tareas en una lista ```<ul>```.
+4. Usa ```key={tarea.id}``` en cada ```<li>```.
+   
 ---
-
+<a name="modulo-11-formularios-en-react"></a>
 ## 📘 Módulo 11: Formularios en React
 
 
-### ¿Qué es un formulario controlado?
+### ❓ ¿Qué es un formulario controlado?
 
-Un formulario controlado en React es aquel donde los campos (input, textarea, select) están vinculados al estado del componente.
-Esto significa que el valor del input depende de useState, y cualquier cambio en el input actualiza ese estado.
+Un formulario controlado en React es aquel donde los campos (```input```, ```textarea```, ```select```) están vinculados al estado del componente.
 
-
-**🔄 ¿Por qué usar formularios controlados?**
-
-Permite validar en tiempo real.
-Puedes limpiar el formulario fácilmente.
-Facilita la lógica al enviar datos a una API.
-React controla todo el proceso.
+Esto significa que el valor del input depende de ```useState```, y cualquier cambio en el input actualiza ese estado.
 
 
-#### Ejemplo básico: formulario de nombre
+### 🔄 ¿Por qué usar formularios controlados?
 
-import { useState } from "react";
+* Permite validar en tiempo real.
+* Puedes limpiar el formulario fácilmente.
+* Facilita la lógica al enviar datos a una API.
+* React controla todo el proceso.
+
+### 🧪 Ejemplo básico: formulario de nombre
 
 ```jsx
+import { useState } from "react";
+
 function FormularioNombre() {
  const [nombre, setNombre] = useState("");
 
@@ -693,123 +700,121 @@ function FormularioNombre() {
 }
 ```
 
-#### Reglas clave para formularios en React
+### 📌 Reglas clave para formularios en React
 
-Usa useState para cada campo del formulario.
-El atributo value del input debe estar enlazado con el estado.
-Usa onChange para actualizar el estado cuando el usuario escriba.
-Controla el onSubmit del formulario con una función.
+* Usa useState para cada campo del formulario.
+* El atributo value del input debe estar enlazado con el estado.
+* Usa onChange para actualizar el estado cuando el usuario escriba.
+* Controla el onSubmit del formulario con una función.
 
+### 💡 Mejora: múltiples campos
 
-**💡 Mejora: múltiples campos**
-
+```jsx
 const [formulario, setFormulario] = useState({ nombre: "", email: "" });
 
 const manejarCambio = (e) => {
  setFormulario({ ...formulario, [e.target.name]: e.target.value });
 };
 Esto permite manejar varios campos con una sola función.
+```
 
+### 🎯 Ejercicio para ti:
 
-#### Ejercicio para ti:
-
-Crea un componente FormularioContacto.
-Debe tener campos: nombre, email, mensaje.
-Al hacer submit, muestra un alert con los datos.
-Usa useState para controlar los valores.
-Limpia el formulario después de enviarlo.
+1. Crea un componente FormularioContacto.
+2. Debe tener campos: nombre, email, mensaje.
+3. Al hacer submit, muestra un alert con los datos.
+4. Usa useState para controlar los valores.
+5. Limpia el formulario después de enviarlo.
 
 ---
-
+<a name="modulo-12-lifting-state-up-y-comunicacion-entre-componentes"></a>
 ## 📘 Módulo 12: Lifting State Up y comunicación entre componentes
 
-
-### ¿Qué es “Lifting State Up”?
+### ❓ ¿Qué es “Lifting State Up”?
 
 En React, el estado se maneja desde el componente que necesita conocer o controlar un dato. Pero cuando varios componentes necesitan acceder o modificar un mismo estado, lo ideal es elevar (lift up) ese estado al ancestro común.
 Es decir, el estado se mueve “hacia arriba” en la jerarquía de componentes para que pueda ser compartido por varios hijos.
 
-**📦 ¿Cuándo usar Lifting State Up?**
+### 🔁 ¿Cuándo usar Lifting State Up?
 
-Cuando un componente hijo necesita enviar información al padre.
-Cuando dos componentes hermanos necesitan acceder al mismo estado.
+* Cuando un componente hijo necesita enviar información al padre.
+* Cuando dos componentes hermanos necesitan acceder al mismo estado.
 
 
-#### Ejemplo: contador controlado desde el padre
+### 🧪 Ejemplo básico: contador controlado desde el padre
 
+```jsx
 import { useState } from "react";
 
-```jsx
 function BotonIncrementar({ onClick }) {
- return Incrementar;
+  return <button onClick={onClick}>Incrementar</button>;
 }
-```
 
-```jsx
 function MostrarContador({ valor }) {
- return Valor actual: {valor};
+  return <p>Valor actual: {valor}</p>;
 }
-```
 
-```jsx
 function ContadorConLifting() {
- const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(0);
 
- const incrementar = () => setContador(contador + 1);
+  const incrementar = () => setContador(contador + 1);
 
- return (
-
-
-
-
- );
+  return (
+    <div>
+      <MostrarContador valor={contador} />
+      <BotonIncrementar onClick={incrementar} />
+    </div>
+  );
 }
 ```
 
 
-**🔁 Comunicación descendente y ascendente**
+### 📡 Comunicación descendente y ascendente
 
-Padre → Hijo: usando props
-Hijo → Padre: usando una función que el padre pasa como prop
+**Padre → Hijo**: usando ```props```
+**Hijo → Padre**: usando una función que el padre pasa como prop
 
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente padre llamado FormularioColor.
-Este tendrá un input donde el usuario escriba un color (rojo, blue, etc.).
-Pasa ese valor a un componente hijo llamado CajaColor que pinte un div con el color recibido.
-Usa useState y props para conectar ambos.
+1. Crea un componente padre llamado FormularioColor.
+2. Este tendrá un input donde el usuario escriba un color (rojo, blue, etc.).
+3. Pasa ese valor a un componente hijo llamado CajaColor que pinte un div con el color recibido.
+4. Usa useState y props para conectar ambos.
 
 ---
-
+<a name="modulo-13-react-router-navegacion-entre-paginas"></a>
 ## 📘 Módulo 13: React Router – Navegación entre páginas
 
-### ¿Qué es React Router?
+### ❓ ¿Qué es React Router?
 
 React Router es una librería oficial que permite agregar rutas y navegación a aplicaciones hechas con React.
 En una SPA (Single Page Application), aunque todo corre en una sola página, podemos simular múltiples “páginas” gracias a React Router.
 
-**📦 ¿Qué podemos hacer con React Router?**
+### 📦 ¿Qué podemos hacer con React Router?
 
-Crear rutas y subrutas (/home, /perfil, /producto/:id)
-Cambiar la vista sin recargar la página
-Navegar con enlaces
-Redirecciones, rutas protegidas, navegación programática...
+* Crear rutas y subrutas (/home, /perfil, /producto/:id)
+* Cambiar la vista sin recargar la página
+* Navegar con enlaces
+* Redirecciones, rutas protegidas, navegación programática...
 
-**🚀 Instalación**
+### 🚀 Instalación
 
 Desde la terminal, en el proyecto React:
+
+```bash
 npm install react-router-dom
+```
 
-**🔁 Conceptos clave**
+### 🔁 Conceptos clave
 
-: debe envolver toda la app (generalmente en index.js o App.js)
-: contenedor de todas las rutas
-: define una ruta
-: navegación sin recargar
-useNavigate(): navegación desde código
+* ```<BrowserRouter>```: debe envolver toda la app (generalmente en ```index.js``` o ```App.js```)
+* ```<Routes>```: contenedor de todas las rutas
+* ```<Route>```: define una ruta
+* ```<Route>```: navegación sin recargar
+* ```useNavigate()```: navegación desde código
 
-#### Ejemplo básico
+### 🧪 Ejemplo básico:
 
 import {
  BrowserRouter as Router,
@@ -819,70 +824,73 @@ import {
 } from "react-router-dom";
 
 ```jsx
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+
 function Home() {
- return Inicio;
+  return <h2>Inicio</h2>;
 }
-```
 
-```jsx
 function Acerca() {
- return Acerca de;
+  return <h2>Acerca de</h2>;
 }
-```
 
-```jsx
 function Navegacion() {
- return (
-
-Inicio | Acerca
-
- );
+  return (
+    <nav>
+      <Link to="/">Inicio</Link> | <Link to="/acerca">Acerca</Link>
+    </nav>
+  );
 }
-```
 
-```jsx
 function AppRouter() {
- return (
-
-
+  return (
+    <Router>
+      <Navegacion />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/acerca" element={<Acerca />} />
+      </Routes>
+    </Router>
+  );
 }
-/>
- } />
 
-
- );
-}
 ``` 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea tres componentes: Inicio, Servicios y Contacto.
-Configura rutas /, /servicios y /contacto.
-Crea una barra de navegación con  para cambiar entre ellos.
-Bonus: agrega estilos para destacar la página actual.
+1. Crea tres componentes: ```Inicio```, ```Servicios``` y ```Contacto```.
+2. Configura rutas ```/```, ```/servicios``` y ```/contacto```.
+3. Crea una barra de navegación con ```<Link>``` para cambiar entre ellos.
+4. Bonus: agrega estilos para destacar la página actual.
 
 ---
-
+<a name="modulo-14-consumo-de-apis-con-fetch-o-axios"></a>
 ## 📘 Módulo 14: Consumo de APIs con fetch o Axios
 
-### ¿Qué es una API?
+### ❓ ¿Qué es una API?
 
 Una API (Application Programming Interface) permite que nuestra app React se comunique con servidores externos y obtenga o envíe datos, como usuarios, productos, publicaciones, etc.
-En React, solemos usar fetch() o librerías como axios para hacer peticiones HTTP (GET, POST, PUT, DELETE...).
 
-**📦 Opciones populares**
+En React, solemos usar ```fetch()``` o librerías como ```axios``` para hacer peticiones HTTP (GET, POST, PUT, DELETE...).
 
-fetch(): viene con JavaScript por defecto.
-axios: librería externa más amigable (instalar con npm install axios).
+### 📦 Opciones populares
 
-**💡 ¿Dónde usamos la petición?**
+```fetch()```: viene con JavaScript por defecto.
+```axios```: librería externa más amigable (instalar con ```npm install axios```).
 
-Usamos el hook useEffect() para hacer la petición una vez que el componente se monte.
+### 💡 ¿Dónde usamos la petición?
 
-#### Ejemplo con fetch() – Obtener usuarios
+Usamos el hook ```useEffect()``` para hacer la petición una vez que el componente se monte.
 
-import { useState, useEffect } from "react";
+### 🧪 Ejemplo básico con fetch() – Obtener usuarios:
 
 ```jsx
+import { useState, useEffect } from "react";
+
 function ListaUsuarios() {
  const [usuarios, setUsuarios] = useState([]);
  const [cargando, setCargando] = useState(true);
@@ -909,36 +917,35 @@ function ListaUsuarios() {
 }
 ```
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente ListaPosts.
-Usa fetch para obtener datos de https://jsonplaceholder.typicode.com/posts.
-Muestra los títulos (title) en pantalla.
-Agrega un mensaje de "Cargando..." mientras se obtienen los datos.
+1. Crea un componente ```ListaPosts```.
+2. Usa ```fetch``` para obtener datos de ```https://jsonplaceholder.typicode.com/posts```.
+3. Muestra los títulos (```title```) en pantalla.
+4. Agrega un mensaje de "Cargando..." mientras se obtienen los datos.
 
 ---
-
+<a name="modulo-15-custom-hooks"></a>
 ## 📘 Módulo 15: Custom Hooks
 
-### ¿Qué es un Custom Hook?
+### ❓ ¿Qué es un Custom Hook?
 
 Un Custom Hook es una función de JavaScript que empieza con use y puede usar otros hooks internos (useState, useEffect, etc.). Nos permite extraer lógica reutilizable y compartirla entre varios componentes.
 Si encuentras que estás copiando y pegando useEffect, useState, etc. en varios componentes, ¡es hora de crear un hook personalizado!
 
 
-#### ¿Cómo se crea?
+### 🧠 ¿Cómo se crea?
 
 Un Custom Hook:
-Es una función que empieza con use.
-Usa hooks dentro (como useState, useEffect).
-Devuelve valores o funciones que quieras reutilizar.
+1. Es una función que empieza con use.
+2. Usa hooks dentro (como useState, useEffect).
+3. Devuelve valores o funciones que quieras reutilizar.
 
-
-#### Ejemplo: Hook para obtener datos de una API
-
-import { useState, useEffect } from "react";
+### 🧪 Ejemplo básico: Hook para obtener datos de una API
 
 ```jsx
+import { useState, useEffect } from "react";
+
 function useFetch(url) {
  const [datos, setDatos] = useState([]);
  const [cargando, setCargando] = useState(true);
@@ -956,8 +963,7 @@ function useFetch(url) {
 }
 ```
 
-
-**📦 Usando el Custom Hook**
+### 📦 Ejemplo básico: Usando el Custom Hook
 
 ```jsx
 function ListaComentarios() {
@@ -976,232 +982,265 @@ function ListaComentarios() {
 }
 ```
 
+### 🎯 Ejercicio para ti:
 
-#### Ejercicio para ti:
-
-Crea un hook llamado useContador que:
-Reciba un valor inicial
-Devuelva el valor y una función para incrementarlo
-Úsalo dentro de un componente llamado ContadorPersonalizado.
+1. Crea un hook llamado useContador que:
+2. Reciba un valor inicial
+3. Devuelva el valor y una función para incrementarlo
+4. Úsalo dentro de un componente llamado ContadorPersonalizado.
 
 ---
-
+<a name="modulo-16-context-api"></a>
 ## 📘 Módulo 16: Context API – Manejo global del estado
 
-
-### ¿Qué es Context API?
+### ❓ ¿Qué es Context API?
 
 Context API es una herramienta nativa de React que permite crear un estado global al que cualquier componente de tu aplicación puede acceder o modificar, sin importar dónde esté ubicado en el árbol de componentes.
 Es ideal para manejar temas globales como: autenticación, idioma, tema oscuro/claro, carrito de compras, usuario actual, etc.
 
 
-#### ¿Cómo funciona?
-
-Crear el contexto
-Proveer el contexto
-Consumir el contexto
-
-
-#### Ejemplo paso a paso: Tema (oscuro/claro)
+#### ⚙️ ¿Cómo funciona?
 
 1. Crear el contexto
+2. Proveer el contexto
+3. Consumir el contexto
+
+### 🧪 Ejemplo básico: paso a paso: Tema (oscuro/claro)
+
+1. Crear el contexto:
+   
+```jsx
 import { createContext } from "react";
 
 export const TemaContexto = createContext();
-2. Crear el proveedor
+```
+
+2. Crear el proveedor:
+   
+```jsx
 import { useState } from "react";
 import { TemaContexto } from "./TemaContexto";
 
 export function TemaProvider({ children }) {
- const [tema, setTema] = useState("claro");
+  const [tema, setTema] = useState("claro");
 
- const alternarTema = () => {
- setTema((prev) => (prev === "claro" ? "oscuro" : "claro"));
- };
+  const alternarTema = () => {
+    setTema((prev) => (prev === "claro" ? "oscuro" : "claro"));
+  };
 
- return (
-
- {children}
-
- );
+  return (
+    <TemaContexto.Provider value={{ tema, alternarTema }}>
+      {children}
+    </TemaContexto.Provider>
+  );
 }
-3. Usar el contexto desde un componente
+
+```
+
+3. Usar el contexto desde un componente:
+
+```jsx
 import { useContext } from "react";
 import { TemaContexto } from "./TemaContexto";
 
-```jsx
 function BotonTema() {
- const { tema, alternarTema } = useContext(TemaContexto);
+  const { tema, alternarTema } = useContext(TemaContexto);
 
- return (
-
- Cambiar a modo {tema === "claro" ? "oscuro" : "claro"}
-
- );
+  return (
+    <button onClick={alternarTema}>
+      Cambiar a modo {tema === "claro" ? "oscuro" : "claro"}
+    </button>
+  );
 }
+
 ```
+
 4. Envolver la app con el Provider
+   
 import { TemaProvider } from "./TemaProvider";
 
 ```jsx
+import { TemaProvider } from "./TemaProvider";
+
 function App() {
- return (
-
-
- {/* otros componentes */}
-
- );
+  return (
+    <TemaProvider>
+      <BotonTema />
+      {/* otros componentes */}
+    </TemaProvider>
+  );
 }
 ```
 
+### 🎯 Ejercicio para ti:
 
-#### Ejercicio para ti:
-
-Crea un contexto llamado UsuarioContexto.
-En el proveedor, define un nombre de usuario ("Juan").
-Crea un componente PerfilUsuario que muestre: “Bienvenido, Juan”.
-Usa useContext para obtener el nombre desde el contexto.
+1. Crea un contexto llamado UsuarioContexto.
+2. En el proveedor, define un nombre de usuario ("Juan").
+3. Crea un componente PerfilUsuario que muestre: “Bienvenido, Juan”.
+4. Usa useContext para obtener el nombre desde el contexto.
 
 ---
-
+<a name="modulo-17-introduccion-a-redux"></a>
 ## 📘 Módulo 17: Introducción a Redux (opcional)
 
 
-### ¿Qué es Redux?
+### ❓ ¿Qué es Redux?
 
 Redux es una librería de manejo de estado global. Es más poderosa y estructurada que Context API, ideal cuando:
-La aplicación es grande y compleja.
-Muchos componentes comparten y modifican el mismo estado.
-Necesitas depuración, trazabilidad y control total del flujo de datos.
+
+* La aplicación es grande y compleja.
+* Muchos componentes comparten y modifican el mismo estado.
+* Necesitas depuración, trazabilidad y control total del flujo de datos.
+
 Se basa en un único estado global inmutable, y para modificarlo usamos acciones y reducers.
 
 
-**🔁 Principios clave de Redux**
+### 🔁 Principios clave de Redux
 
-Store: el estado global centralizado.
-Actions: objetos que describen qué ocurrió.
-Reducers: funciones que actualizan el estado según la acción.
-Dispatch: método para lanzar acciones.
-useSelector: permite acceder al estado.
-useDispatch: permite lanzar acciones.
+1. Store: el estado global centralizado.
+2. Actions: objetos que describen qué ocurrió.
+3. Reducers: funciones que actualizan el estado según la acción.
+4. Dispatch: método para lanzar acciones.
+5. useSelector: permite acceder al estado.
+6. useDispatch: permite lanzar acciones.
 
+### 🚀 Instalación (con React)
 
-**🚀 Instalación (con React)**
-
+```bash
 npm install @reduxjs/toolkit react-redux
+```
 
+### 🧪 Ejemplo básico con Redux Toolkit (recomendado)
 
-#### Ejemplo con Redux Toolkit (recomendado)
+1. Crear el slice:
 
-1. Crear el slice
+```jsx
 // contadorSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const contadorSlice = createSlice({
- name: 'contador',
- initialState: 0,
- reducers: {
- incrementar: (state) => state + 1,
- reiniciar: () => 0
- }
+  name: 'contador',
+  initialState: 0,
+  reducers: {
+    incrementar: (state) => state + 1,
+    reiniciar: () => 0
+  }
 });
 
 export const { incrementar, reiniciar } = contadorSlice.actions;
 export default contadorSlice.reducer;
+```
 
-2. Configurar el store
+2. Configurar el store:
+
+```jsx
 // store.js
 import { configureStore } from '@reduxjs/toolkit';
 import contadorReducer from './contadorSlice';
 
 export const store = configureStore({
- reducer: {
- contador: contadorReducer
- }
+  reducer: {
+    contador: contadorReducer
+  }
 });
+```
 
-3. Proveer el store a tu app
+3. Proveer el store a tu app:
+   
+```jsx
 // index.js
 import { Provider } from 'react-redux';
 import { store } from './store';
 import App from './App';
 
-
-
-
+<Provider store={store}>
+  <App />
+</Provider>
+```
 
 4. Usar Redux en un componente
+
+```jsx
 import { useSelector, useDispatch } from 'react-redux';
 import { incrementar, reiniciar } from './contadorSlice';
 
-```jsx
 function ContadorRedux() {
- const contador = useSelector((state) => state.contador);
- const dispatch = useDispatch();
+  const contador = useSelector((state) => state.contador);
+  const dispatch = useDispatch();
 
- return (
-
-Contador Redux: {contador}
- dispatch(incrementar())}>Incrementar
- dispatch(reiniciar())}>Reiniciar
-
- );
+  return (
+    <div>
+      <p>Contador Redux: {contador}</p>
+      <button onClick={() => dispatch(incrementar())}>Incrementar</button>
+      <button onClick={() => dispatch(reiniciar())}>Reiniciar</button>
+    </div>
+  );
 }
+
 ```
 
+### 🎯 Ejercicio para ti:
 
-#### Ejercicio para ti:
-
-Crea un contador con Redux Toolkit.
-Agrega botones para +1, -1, y reiniciar.
-Usa useSelector y useDispatch para manejarlo.
+1. Crea un contador con Redux Toolkit.
+2. Agrega botones para ```+1```, ```-1```, y ```reiniciar```.
+3. Usa ```useSelector``` y ```useDispatch``` para manejarlo.
 
 ---
-
+<a name="modulo-18-deploy-de-la-aplicacion-react"></a>
 ## 📘 Módulo 18: Deploy de la aplicación React
 
-
-### ¿Qué es el Deploy?
+### ❓ ¿Qué es el Deploy?
 
 Hacer deploy significa subir tu app a internet. Es decir, transformarla desde tu entorno local en una página web accesible desde cualquier lugar.
 
-🌐 Opciones para publicar una app React
-Vercel (recomendado)
-Netlify
-GitHub Pages
-Render, Firebase Hosting, AWS, etc.
+### 🌐 Opciones para publicar una app React
+
+1. Vercel (recomendado)
+2. Netlify
+3. GitHub Pages
+4. Render, Firebase Hosting, AWS, etc.
+
 Nosotros usaremos Vercel porque es fácil, rápido y gratuito.
 
-
-**🚀 Paso a paso: Deploy con Vercel**
+### 🚀 Paso a paso: Deploy con Vercel
 
 1. Subir tu app a GitHub
-Si aún no tienes cuenta en GitHub, créala.
-Crea un repositorio nuevo.
-Sube tu proyecto (git init, git add ., git commit, git push).
-2. Crear cuenta en 
-Inicia sesión con tu cuenta de GitHub.
-Haz clic en "Add New Project".
-Selecciona el repositorio con tu app React.
-Vercel detectará que es React y hará la configuración automáticamente.
-Haz clic en "Deploy".
 
-### ¡Listo! En unos segundos tendrás un link público como:
+* Si aún no tienes cuenta en GitHub, créala.
+* Crea un repositorio nuevo.
+* Sube tu proyecto (git init, git add ., git commit, git push).
 
-https://mi-app-react.vercel.app
+2. Crear cuenta en vercel.com
+
+* Inicia sesión con tu cuenta de GitHub.
+* Haz clic en "Add New Project".
+* Selecciona el repositorio con tu app React.
+* Vercel detectará que es React y hará la configuración automáticamente.
+* Haz clic en "Deploy".
+
+✅ ¡Listo! En unos segundos tendrás un link público como:
+
+```https://mi-app-react.vercel.app```
 
 
-**⚙️ Bonus: ¿y si usas create-react-app?**
+### ⚙️ Bonus: ¿y si usas create-react-app?
 
 Cuando usas npm run build, se genera una carpeta build/ con los archivos listos para producción.
+
+```bash
 npm run build
+```
+
 Puedes subir esos archivos a cualquier servidor o usar herramientas como:
-GitHub Pages (requiere configuración)
-Netlify Drop (solo arrastras la carpeta build)
+
+* GitHub Pages (requiere configuración)
+* Netlify Drop (solo arrastras la carpeta ```build```)
 
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Sube tu proyecto a GitHub.
-Haz deploy con Vercel.
-Comparte el link de tu app con tus amigos o clientes.
+1. Sube tu proyecto a GitHub.
+2. Haz deploy con Vercel.
+3. Comparte el link de tu app con tus amigos o clientes.
+
+
