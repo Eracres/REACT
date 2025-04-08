@@ -1,3 +1,5 @@
+![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
+
 # 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
 
 ## 🗂️ Temario General del Curso
@@ -60,27 +62,30 @@ Crea un componente llamado Saludo que muestre el mensaje:
 Para desarrollar con React de forma profesional, lo ideal es tener un entorno que nos permita comenzar rápido, sin perder tiempo en configuraciones innecesarias. Para eso existe una herramienta oficial: Create React App.
 Create React App es un scaffolding tool que genera un proyecto React completo, listo para empezar, con todo configurado: Babel, Webpack, React y más.
 
-### 🛠️ Requisitos previos:
-Antes de comenzar, asegúrate de tener instalado:
-	1. Instala Node.js y npm.
-	2. En la terminal:  
-	```bash
-	npx create-react-app mi-app
-	cd mi-app
-	npm start
-	```
+### 🛠️ Cómo crear tu primer proyecto React:
 
-### 🚀 Cómo crear tu primer proyecto React
+Instalar Node.js y npm
 
 Abre tu terminal (en VS Code o donde prefieras).
 Ejecuta el siguiente comando:
+   
+```bash
 npx create-react-app mi-app
+```
+
 Entra en el nuevo directorio del proyecto:
-Bash
+
+```bash
 cd mi-app
+```
+
 Inicia el servidor de desarrollo:
+
+```bash
 npm start
-Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplicación React funcionando. ¡Ya tienes tu primer entorno React montado!
+```
+
+Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplicación React funcionando. ¡Ya tienes tu primer entorno ⚛️ montado!
 
 🗂️ Estructura básica del proyecto
 
