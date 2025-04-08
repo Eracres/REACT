@@ -8,18 +8,18 @@
 4. [Componentes (Funcionales y de Clase)](#modulo-4-componentes-funcionales-y-de-clase)
 5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
 6. [Estado (useState)](#modulo-6-estado-con-usestate)
-7. Eventos en React  
-8. Ciclo de vida y useEffect  
-9. Estilos en React  
-10. Listas y claves  
-11. Formularios en React  
-12. Lifting State Up y comunicación entre componentes  
-13. React Router (Navegación entre páginas)  
-14. Consumo de APIs con fetch o Axios  
-15. Custom Hooks  
-16. Context API (Manejo global del estado)  
-17. Introducción a Redux (opcional, si quieres profundizar)  
-18. Deploy de la aplicación React  
+7. [Eventos en React](#)
+8. [Ciclo de vida y useEffect](#) 
+9. [Estilos en React](#)
+10. [Listas y claves  ](#)
+11. [Formularios en React  ](#)
+12. [Lifting State Up y comunicación entre componentes ](#)
+13. [React Router (Navegación entre páginas)  ](#)
+14. [Consumo de APIs con fetch o Axios ](#)
+15. [Custom Hooks ](#)
+16. [Context API (Manejo global del estado)  ](#)
+17. [Introducción a Redux (opcional, si quieres profundizar)  ](#)
+18. [Deploy de la aplicación React  ](#)
 
 ---
 <a name="modulo-1-Introducción-a-React"></a>
@@ -157,7 +157,9 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 ```jsx
 function ComponenteJSX() {
  const nombre = "React";
- return (# Hola desde {nombre} ¡Esto es JSX funcionando!);
+ return (x
+	# Hola desde {nombre} ¡Esto es JSX funcionando!
+ );
 }
 ```
 
@@ -189,7 +191,7 @@ Cada componente:
 
 1. Componentes funcionales (los más comunes actualmente)
 
-Son funciones de JavaScript que devuelven JSX. Se utilizan junto con hooks (useState, useEffect, etc).
+Son funciones de JavaScript que devuelven JSX. Se utilizan junto con [hooks](#modulo-6-estado-con-usestate) (useState, useEffect, etc).
 
 ```jsx
 function Tarjeta() {
@@ -223,7 +225,9 @@ Hoy en día se recomienda usar componentes funcionales con [hooks](#modulo-6-est
 
 ```jsx
 function Tarjeta() {
- return (### React es genial 😎 Este es un componente funcional);
+ return (
+	### React es genial 😎 Este es un componente funcional
+ );
 }
 ```
 
@@ -250,108 +254,127 @@ Las props hacen que los componentes sean reutilizables y dinámicos, ya que perm
 
 Cuando usas un componente como una etiqueta HTML, puedes pasarle valores como si fueran atributos:
 
+```jsx
+<Bienvenida nombre="Carlos" />
+```
+
 Dentro del componente, accedes a ese valor usando props:
 
 ```jsx
 function Bienvenida(props) {
- return Hola, {props.nombre};
+  return <h3>Hola, {props.nombre}</h3>;
 }
 ```
 
 ### 🔁 Reutilización con props
 
+```jsx
+<Bienvenida nombre="Ana" />
+<Bienvenida nombre="Luis" />
+<Bienvenida nombre="Sofía" />
+```
+
 Los tres mostrarán un mensaje personalizado gracias al valor de props.nombre.
 
 ### ⚠️ Importante
 
-Las props son de solo lectura. No debes modificarlas dentro del componente.
-Puedes pasar strings, números, funciones, objetos e incluso otros componentes como props.
+*Las props son de solo lectura. No debes modificarlas dentro del componente.
+*Puedes pasar strings, números, funciones, objetos e incluso otros componentes como props.
 
 ### 🧪 Ejemplo simple:
 
 ```jsx
 function Usuario(props) {
- return (
-
-{props.nombre}
-Edad: {props.edad}
-
- );
+  return (
+    <div>
+      <h2>{props.nombre}</h2>
+      <p>Edad: {props.edad}</p>
+    </div>
+  );
 }
 ```
 Uso del componente:
 
+```jsx
+<Usuario nombre="María" edad={29} />
+```
+
 ### 🎯 Ejercicio para ti:
 
-1. Crea un componente llamado Producto.
-2. Recibirá por props: nombre, precio y disponible.
-3. Mostrará la información dentro de un div con un h3 y dos párrafos.
-4. Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
+1. Crea un componente llamado ```Producto```.
+2. Recibirá por props: ```nombre```, ```precio``` y ```disponible```.
+3. Mostrará la información dentro de un ```div``` con un ```h3``` y dos párrafos.
+4. Usa el componente al menos 2 veces con datos diferentes dentro de ```App.js```.
 
 ---
 <a name="modulo-6-estado-con-usestate"></a>
 ## 📘 Módulo 6: Estado con useState
 
-### ¿Qué es el estado en React?
+### ❓ ¿Qué es el estado en React?
 
 El estado es como la "memoria" de un componente. Permite que React guarde y actualice información dinámica que puede cambiar con el tiempo: clics, entradas de usuario, datos traídos de una API, etc.
-En componentes funcionales, usamos el hook useState() para gestionar el estado.
+En componentes funcionales, usamos el hook ```useState()``` para gestionar el estado.
 
-#### ❓ ¿Qué es un hook?
+### ❓ ¿Qué es un hook?
 
-Un hook es una función especial de React que permite usar características avanzadas (como estado, ciclo de vida, etc.) en componentes funcionales. useState es el más básico y usado.
+Un hook es una función especial de React que permite usar características avanzadas (como estado, ciclo de vida, etc.) en componentes funcionales. ```useState``` es el más básico y usado.
 
-**📦 Sintaxis de useState**
+### 📦 Sintaxis de useState
+
 ```
 const [estado, setEstado] = useState(valorInicial);
-estado: la variable que contiene el valor actual.
-setEstado: función que usamos para actualizar el valor.
-useState(valorInicial): le pasamos el valor con el que queremos empezar.
 ```
 
-#### Ejemplo mío: un contador
+* ```estado```: la variable que contiene el valor actual.
+* ```setEstado```: función que usamos para actualizar el valor.
+* ```useState(valorInicial)```: le pasamos el valor con el que queremos empezar.
 
-import { useState } from "react";
+
+### 🧪 Ejemplo simple: un contador
 
 ```jsx
+import { useState } from "react";
+
 function Contador() {
- const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(0);
 
- return (
-
-Contador: {contador}
- setContador(contador + 1)}>Sumar
- setContador(0)}>Reiniciar
-
- );
+  return (
+    <div>
+      <p>Contador: {contador}</p>
+      <button onClick={() => setContador(contador + 1)}>Sumar</button>
+      <button onClick={() => setContador(0)}>Reiniciar</button>
+    </div>
+  );
 }
+
 ```
 Este componente guarda el número actual del contador en su estado, y lo actualiza al hacer clic en los botones.
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado Likes.
-Usa useState para llevar un conteo de "me gusta".
-Agrega un botón con el texto “👍 Me gusta”.
-Cada clic debe incrementar el número de likes.
-Muestra el texto: “Este post tiene X me gusta”.
+1. Crea un componente llamado Likes.
+2. Usa useState para llevar un conteo de "me gusta".
+3. Agrega un botón con el texto “👍 Me gusta”.
+4. Cada clic debe incrementar el número de likes.
+5. Muestra el texto: “Este post tiene X me gusta”.
 
 ---
 
 ## 📘 Módulo 7: Eventos en React
 
-### ¿Qué son los eventos en React?
+### ❓ ¿Qué son los eventos en React?
 
-Los eventos en React funcionan de forma muy similar a los eventos en JavaScript puro (como onclick, onchange, etc.), pero con una sintaxis adaptada a JSX y al estilo declarativo de React.
+Los eventos en React funcionan de forma muy similar a los eventos en JavaScript puro (como ```onclick```, ```onchange```, etc.), pero con una sintaxis adaptada a JSX y al estilo declarativo de React.
+
 Los eventos nos permiten ejecutar funciones cuando el usuario interactúa con la aplicación: al hacer clic, escribir en un campo, mover el mouse, etc.
 
-#### ¿Cómo se usan los eventos en React?
+### ❓ ¿Cómo se usan los eventos en React?
 
-Se escriben en camelCase: onClick, onChange, onSubmit, etc.
+Se escriben en camelCase: ```onClick```, ```onChange```, ```onSubmit```, etc.
 Se pasan funciones como manejadores de eventos.
-Puedes usar funciones declaradas o funciones flecha (arrow functions).
+Puedes usar funciones declaradas o funciones flecha ```(arrow functions)```.
 
-#### Ejemplo básico: botón que muestra una alerta
+### 🧪 Ejemplo simple: botón que muestra una alerta
 
 ```jsx
 function EventoClick() {
@@ -364,9 +387,48 @@ function EventoClick() {
 ```
 Aquí, onClick={manejarClick} está diciendo: “Cuando hagan clic, ejecuta esta función”.
 
-**📋 Otros eventos comunes en React:**
+### 📋 Otros eventos comunes en React:
 
-#### Ejemplo avanzado: captura de texto en un input
+| Evento        | Acción                             |
+|---------------|------------------------------------|
+| `onClick`     | Cuando el usuario hace clic        |
+| `onChange`    | Cuando cambia el valor de un input |
+| `onSubmit`    | Cuando se envía un formulario      |
+| `onMouseOver` | Cuando el mouse pasa sobre un elemento |
+
+
+<h3>📋 Otros eventos comunes en React:</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Evento</th>
+      <th>Acción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>onClick</code></td>
+      <td>Cuando el usuario hace clic</td>
+    </tr>
+    <tr>
+      <td><code>onChange</code></td>
+      <td>Cuando cambia el valor de un input</td>
+    </tr>
+    <tr>
+      <td><code>onSubmit</code></td>
+      <td>Cuando se envía un formulario</td>
+    </tr>
+    <tr>
+      <td><code>onMouseOver</code></td>
+      <td>Cuando el mouse pasa sobre un elemento</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+### 🧪 Ejemplo avanzado: captura de texto en un input
 
 import { useState } from "react";
 
