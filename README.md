@@ -28,9 +28,7 @@
 18. Deploy de la aplicación React  
 
 ---
-
 ## 📘 Módulo 1: Introducción a React
-
 ---
 
 ### ❓ ¿Qué es React?
