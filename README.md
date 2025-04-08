@@ -8,9 +8,9 @@
 4. [Componentes (Funcionales y de Clase)](#modulo-4-componentes-funcionales-y-de-clase)
 5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
 6. [Estado (useState)](#modulo-6-estado-con-usestate)
-7. [Eventos en React](#)
-8. [Ciclo de vida y useEffect](#) 
-9. [Estilos en React](#)
+7. [Eventos en React](#modulo-7-Eventos-en-React)
+8. [Ciclo de vida y useEffect](#modulo-8-useEffect-ciclo-de-vida-y-efectos-secundarios) 
+9. [Estilos en React](#modulo-9-estilos-en-react)
 10. [Listas y claves  ](#)
 11. [Formularios en React  ](#)
 12. [Lifting State Up y comunicación entre componentes ](#)
@@ -359,7 +359,7 @@ Este componente guarda el número actual del contador en su estado, y lo actuali
 5. Muestra el texto: “Este post tiene X me gusta”.
 
 ---
-
+<a name="modulo-7-Eventos-en-React"></a>
 ## 📘 Módulo 7: Eventos en React
 
 ### ❓ ¿Qué son los eventos en React?
@@ -368,7 +368,7 @@ Los eventos en React funcionan de forma muy similar a los eventos en JavaScript 
 
 Los eventos nos permiten ejecutar funciones cuando el usuario interactúa con la aplicación: al hacer clic, escribir en un campo, mover el mouse, etc.
 
-### ❓ ¿Cómo se usan los eventos en React?
+### 🔁 ¿Cómo se usan los eventos en React?
 
 Se escriben en camelCase: ```onClick```, ```onChange```, ```onSubmit```, etc.
 Se pasan funciones como manejadores de eventos.
@@ -385,7 +385,7 @@ function EventoClick() {
  return Haz clic aquí;
 }
 ```
-Aquí, onClick={manejarClick} está diciendo: “Cuando hagan clic, ejecuta esta función”.
+Aquí, ```onClick={manejarClick}``` está diciendo: “Cuando hagan clic, ejecuta esta función”.
 
 ### 📋 Otros eventos comunes en React:
 
@@ -395,38 +395,6 @@ Aquí, onClick={manejarClick} está diciendo: “Cuando hagan clic, ejecuta esta
 | `onChange`    | Cuando cambia el valor de un input |
 | `onSubmit`    | Cuando se envía un formulario      |
 | `onMouseOver` | Cuando el mouse pasa sobre un elemento |
-
-
-<h3>📋 Otros eventos comunes en React:</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Evento</th>
-      <th>Acción</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><code>onClick</code></td>
-      <td>Cuando el usuario hace clic</td>
-    </tr>
-    <tr>
-      <td><code>onChange</code></td>
-      <td>Cuando cambia el valor de un input</td>
-    </tr>
-    <tr>
-      <td><code>onSubmit</code></td>
-      <td>Cuando se envía un formulario</td>
-    </tr>
-    <tr>
-      <td><code>onMouseOver</code></td>
-      <td>Cuando el mouse pasa sobre un elemento</td>
-    </tr>
-  </tbody>
-</table>
-
-
 
 ### 🧪 Ejemplo avanzado: captura de texto en un input
 
@@ -448,18 +416,18 @@ Tu nombre es: {nombre}
  );
 }
 ```
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado FormularioCorreo.
-Tendrá un input para escribir el correo electrónico.
-Muestra el texto debajo en tiempo real: "Tu correo es: [correo]".
-Usa el evento onChange para capturar el valor.
+1. Crea un componente llamado ```FormularioCorreo```.
+2. Tendrá un ```input``` para escribir el correo electrónico.
+3. Muestra el texto debajo en tiempo real: "Tu correo es: [correo]".
+4. Usa el evento ```onChange``` para capturar el valor.
 
 ---
-
+<a name="modulo-8-useEffect-ciclo-de-vida-y-efectos-secundarios"></a>
 ## 📘 Módulo 8: useEffect – Ciclo de vida y efectos secundarios
 
-### ¿Qué es useEffect?
+### ❓ ¿Qué es useEffect?
 
 useEffect es un hook que te permite ejecutar código en momentos específicos del ciclo de vida del componente.
 Es útil para realizar efectos secundarios, como:
@@ -467,19 +435,22 @@ Llamadas a una API
 Interacción con el DOM
 Suscripciones, temporizadores, listeners, etc.
 
-**🔁 ¿Cuándo se ejecuta useEffect?**
+### 🔁 ¿Cuándo se ejecuta useEffect?
 
 Por defecto, useEffect se ejecuta después de cada renderizado. Pero puedes controlar cuándo se ejecuta usando un segundo argumento: el array de dependencias.
 
-**📦 Sintaxis básica**
+### 📦 Sintaxis básica
 
+```jsx
 useEffect(() => {
  // Código que se ejecuta después del render
 }, []);
-Si pasas un array vacío [], el efecto se ejecuta una sola vez al montar el componente (como componentDidMount).
-Si incluyes variables dentro del array, se ejecutará cada vez que esas variables cambien.
+```
 
-#### Ejemplo mío: mensaje en consola al montar
+* Si pasas un array vacío ```[]```, el efecto se ejecuta una sola vez al montar el componente (como ```componentDidMount```).
+* Si incluyes variables dentro del array, se ejecutará cada vez que esas variables cambien.
+
+### 🧪 Ejemplo simple: mensaje en consola al montar
 
 import { useEffect } from "react";
 
@@ -492,7 +463,7 @@ function Temporizador() {
  return Observa la consola;
 }
 ```
-#### Ejemplo: contador automático
+### 🧪 Ejemplo simple: contador automático
 
 import { useEffect, useState } from "react";
 
@@ -512,17 +483,17 @@ function ContadorAutomatico() {
  return Contador automático: {contador};
 }
 ```
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado Reloj.
-Usa useEffect para actualizar la hora actual cada segundo.
-Muestra el resultado en pantalla con formato: HH:MM:SS.
+1. Crea un componente llamado ```Reloj```.
+2. Usa ```useEffect``` para actualizar la hora actual cada segundo.
+3. Muestra el resultado en pantalla con formato: ```HH:MM:SS```.
 
 ---
-
+<a name="modulo-9-estilos-en-react"></a>
 ## 📘 Módulo 9: Estilos en React
 
-### ¿Cómo se aplican estilos en React?
+### ❓ ¿Cómo se aplican estilos en React?
 
 React no impone un único método para aplicar estilos. Puedes usar:
 CSS tradicional (importado)
@@ -530,24 +501,35 @@ Estilos en línea (inline styles)
 CSS Modules
 Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
 
-**🎨 Opción 1: CSS tradicional**
+#### 🎨 **Opción 1: CSS tradicional**
 
-Puedes crear un archivo .css y importarlo en el componente.
-css
+Puedes crear un archivo ```.css``` y importarlo en el componente.
+
+![CSS3](https://raw.githubusercontent.com/github/explore/main/topics/css/css.png)
+
+
+CSS:
+
+```css
 /* archivo: estilos.css */
 .titulo {
  color: royalblue;
  font-size: 2rem;
 }
-import "./estilos.css";
-
-```jsx
-function Encabezado() {
- return ¡Hola desde CSS tradicional!;
-}
 ```
 
-🖌️ Opción 2: Estilos en línea (inline)
+JS:
+
+```jsx
+import "./estilos.css";
+
+function Encabezado() {
+  return <h1 className="titulo">¡Hola desde CSS tradicional!</h1>;
+}
+
+```
+
+#### 🖌️ **Opción 2: Estilos en línea (inline)**
 Son útiles para estilos rápidos y dinámicos.
 ```jsx
 function Boton() {
@@ -565,7 +547,7 @@ function Boton() {
 Nota: los nombres de propiedades se escriben en camelCase (por ejemplo, backgroundColor, no background-color).
 
 
-**🧩 Opción 3: CSS Modules**
+#### 🧩 **Opción 3: CSS Modules**
 
 Permite aplicar estilos aislados por componente (evita conflictos).
 // archivo: Titulo.module.css
