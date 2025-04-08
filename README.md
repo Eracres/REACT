@@ -100,7 +100,7 @@ Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplic
 ├── 📁 src                  → Aquí va todo tu código React
 │   ├── 📄 App.js           → Componente principal de la aplicación
 │   └── 📄 index.js         → Punto de entrada que renderiza `App.js`
-├── 📄 package.json         → Dependencias y scripts del proyecto
+└── 📄 package.json         → Dependencias y scripts del proyecto
 ```
 
 ### 🧼 Recomendación como desarrollador:
