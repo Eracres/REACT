@@ -22,9 +22,9 @@
 18. Deploy de la aplicación React  
 ---
 
-##📘 Módulo 1: Introducción a React
+## 📘 Módulo 1: Introducción a React
 
-###❓ ¿Qué es React?
+### ❓ ¿Qué es React?
 
 React es una biblioteca de JavaScript creada por Facebook para construir interfaces de usuario. Su objetivo principal es crear aplicaciones web reactivas, eficientes y modulares.
 
@@ -35,7 +35,7 @@ React es una biblioteca de JavaScript creada por Facebook para construir interfa
 - Ideal para SPAs (Single Page Applications)
 
 
-####🧪 Ejemplo simple
+#### 🧪 Ejemplo simple
 
 ```jsx
 function HolaMundo() {
