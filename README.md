@@ -1,9 +1,3 @@
-![React](https://raw.githubusercontent.com/github/explore/main/topics/react/react.png)
-
-
-<img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React" width="24"/>
-
-
 # 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
 
 ## 🗂️ Temario General del Curso
@@ -34,11 +28,11 @@
 
 React es una biblioteca de JavaScript creada por Facebook para construir interfaces de usuario. Su objetivo principal es crear aplicaciones web reactivas, eficientes y modulares.
 
-**Ventajas clave:**
-- Componentes reutilizables
-- Virtual DOM (mejora el rendimiento)
-- Flujo de datos unidireccional (unidirectional data flow)
-- Ideal para SPAs (Single Page Applications)
+💡 Ventajas clave:
+	- Componentes reutilizables
+	- Virtual DOM (mejora el rendimiento)
+	- Flujo de datos unidireccional (unidirectional data flow)
+	- Ideal para SPAs (Single Page Applications)
 
 
 ### 🧪 Ejemplo simple
