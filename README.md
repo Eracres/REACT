@@ -27,9 +27,14 @@
 17. Introducción a Redux (opcional, si quieres profundizar)  
 18. Deploy de la aplicación React  
 
----
+
 ## 📘 Módulo 1: Introducción a React
 ---
+
+***
+
+___
+
 
 ### ❓ ¿Qué es React?
 
