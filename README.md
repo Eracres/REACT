@@ -211,7 +211,7 @@ class TarjetaClase extends React.Component {
 }
 ```
 
-Hoy en día se recomienda usar componentes funcionales con hooks porque son más sencillos y modernos.
+Hoy en día se recomienda usar componentes funcionales con [hooks](#Modulo_6) porque son más sencillos y modernos.
 
 ### 📢 Convenciones
 
@@ -226,45 +226,48 @@ function Tarjeta() {
  return (### React es genial 😎 Este es un componente funcional);
 }
 ```
+
 Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML:
 
 ### 🎯 Ejercicio para ti:
 
 1. Crea un componente llamado PerfilUsuario.
 2. Dentro de él, muestra lo siguiente:
-   2.1. Un título ##  con el texto “Perfil del usuario”.
-   2.2. Un párrafo  con el nombre ficticio de un usuario.
-   2.3. Importa y usa el componente dentro de App.js.
-   
+* Un título ##  con el texto “Perfil del usuario”.
+* Un párrafo  con el nombre ficticio de un usuario.
+* Importa y usa el componente dentro de App.js.
+
 ---
 
 ## 📘 Módulo 5: Props (Propiedades entre componentes)
 
-### ¿Qué son las Props?
+### ❓ ¿Qué son las Props?
 
 Las props (abreviatura de “properties”) son la forma de pasar datos entre componentes en React. Son similares a los parámetros de una función, pero aplicados a los componentes.
 Las props hacen que los componentes sean reutilizables y dinámicos, ya que permiten cambiar el contenido mostrado sin modificar el propio componente.
 
-**🧩 ¿Cómo funcionan?**
+### 🧩 ¿Cómo funcionan?
 
 Cuando usas un componente como una etiqueta HTML, puedes pasarle valores como si fueran atributos:
 
 Dentro del componente, accedes a ese valor usando props:
+
 ```jsx
 function Bienvenida(props) {
  return Hola, {props.nombre};
 }
 ```
 
-**🔁 Reutilización con props**
+### 🔁 Reutilización con props
 
 Los tres mostrarán un mensaje personalizado gracias al valor de props.nombre.
 
-⚠️ Importante
+### ⚠️ Importante
+
 Las props son de solo lectura. No debes modificarlas dentro del componente.
 Puedes pasar strings, números, funciones, objetos e incluso otros componentes como props.
 
-#### Ejemplo mío
+### 🧪 Ejemplo simple:
 
 ```jsx
 function Usuario(props) {
@@ -278,12 +281,12 @@ Edad: {props.edad}
 ```
 Uso del componente:
 
-#### Ejercicio para ti:
+### 🎯 Ejercicio para ti:
 
-Crea un componente llamado Producto.
-Recibirá por props: nombre, precio y disponible.
-Mostrará la información dentro de un div con un h3 y dos párrafos.
-Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
+1. Crea un componente llamado Producto.
+2. Recibirá por props: nombre, precio y disponible.
+3. Mostrará la información dentro de un div con un h3 y dos párrafos.
+4. Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
 
 ---
 
@@ -294,7 +297,7 @@ Usa el componente al menos 2 veces con datos diferentes dentro de App.js.
 El estado es como la "memoria" de un componente. Permite que React guarde y actualice información dinámica que puede cambiar con el tiempo: clics, entradas de usuario, datos traídos de una API, etc.
 En componentes funcionales, usamos el hook useState() para gestionar el estado.
 
-#### ¿Qué es un hook?
+#### ❓ ¿Qué es un hook?
 
 Un hook es una función especial de React que permite usar características avanzadas (como estado, ciclo de vida, etc.) en componentes funcionales. useState es el más básico y usado.
 
