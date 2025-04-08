@@ -29,7 +29,6 @@
 
 ---
 ## 📘 Módulo 1: Introducción a React
----
 
 ### ❓ ¿Qué es React?
 
