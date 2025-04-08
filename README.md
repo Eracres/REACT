@@ -1,5 +1,6 @@
-⚛️ **React**
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React" width="100"/>
+</p>
 
 # 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
 
