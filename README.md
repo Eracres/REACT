@@ -505,7 +505,7 @@ Frameworks y librerías externas (Tailwind, Bootstrap, styled-components...)
 
 Puedes crear un archivo ```.css``` y importarlo en el componente.
 
-![CSS3 Logo](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/CSS3_logo_and_wordmark.png" alt="CSS3 Logo" width="50"/>
 
 ```css
 /* archivo: estilos.css */
