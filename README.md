@@ -35,7 +35,7 @@ React es una biblioteca de JavaScript creada por Facebook para construir interfa
 - Ideal para SPAs (Single Page Applications)
 
 
-#### 🧪 Ejemplo simple
+### 🧪 Ejemplo simple
 
 ```jsx
 function HolaMundo() {
@@ -46,7 +46,7 @@ function HolaMundo() {
 Esto sería un componente muy básico en React.
 
 
-#### 🧠 Ejercicio para ti:
+### 🧠 Ejercicio para ti:
 
 Crea un componente llamado Saludo que muestre el mensaje:
 ```
