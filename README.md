@@ -60,15 +60,17 @@ Crea un componente llamado Saludo que muestre el mensaje:
 Para desarrollar con React de forma profesional, lo ideal es tener un entorno que nos permita comenzar rápido, sin perder tiempo en configuraciones innecesarias. Para eso existe una herramienta oficial: Create React App.
 Create React App es un scaffolding tool que genera un proyecto React completo, listo para empezar, con todo configurado: Babel, Webpack, React y más.
 
-#### 🛠️ Requisitos previos:
+### 🛠️ Requisitos previos:
 Antes de comenzar, asegúrate de tener instalado:
  (incluye npm)
 Un editor de código (como Visual Studio Code)
 Puedes comprobar que los tienes instalados ejecutando:
+```
 node -v
 npm -v
+```
 
-** 🚀 Cómo crear tu primer proyecto React**
+### 🚀 Cómo crear tu primer proyecto React
 
 Abre tu terminal (en VS Code o donde prefieras).
 Ejecuta el siguiente comando:
