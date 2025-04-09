@@ -218,6 +218,7 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 | Etiquetas deben cerrarse | ```img```, ```input```, etc. se cierran como ```<img />``` |
 
 ### 💡 Recordatorio: JSX es solo sintaxis
+
 Dentro del JSX puedes usar JavaScript puro entre llaves {}:
 
 ```jsx
@@ -243,6 +244,41 @@ function ComponenteJSX() {
 }
 ```
 
+✅ ¿Qué hace este componente?
+
+Este componente muestra un saludo dinámico usando una variable declarada en JavaScript (```const nombre = "React"```).
+* Dentro del ```return```, usamos JSX para crear una estructura HTML-like.
+* Utiliza ```{nombre}``` para insertar dinámicamente el valor ```"React"``` dentro del texto del <h1>.
+* Luego, muestra un ```<p>``` con un mensaje fijo.
+
+🧠 ¿Qué conceptos aplica?
+
+* Interpolación de variables: con ```{}``` dentro de JSX puedes mostrar cualquier expresión de JavaScript.
+* Encapsulamiento de UI: este componente podría reutilizarse con diferentes textos.
+* Elementos anidados en un contenedor (```<div>```): JSX requiere que todo esté envuelto en un solo elemento padre.
+
+✅ ¿Qué puedes aprender de esto?
+
+* JSX no es HTML, pero se le parece mucho.
+* Todo lo que escribas dentro del ```return``` tiene que estar envuelto en un solo nodo raíz.
+* Las variables dentro del JSX deben ir entre llaves ```{}```.
+
+💡 Variaciones sugeridas:
+
+Puedes transformar el nombre en mayúsculas directamente:
+
+```jsx
+<h1>Hola desde {nombre.toUpperCase()}</h1>
+```
+
+O usar props para hacerlo reutilizable:
+
+```jsx
+function ComponenteJSX(props) {
+  return <h1>Hola desde {props.nombre}</h1>;
+}
+```
+
 #### 📄 Ejemplo 2: condicionales y ternarios
 
 ```jsx
@@ -254,6 +290,22 @@ function Mensaje(props) {
   );
 }
 ```
+
+✅ ¿Qué hace este componente?
+
+Este componente recibe una propiedad llamada logueado (tipo booleano), y en base a su valor muestra uno de dos mensajes:
+* Si ```logueado === true``` → muestra ```"Bienvenido"```
+* Si ```logueado === false``` → muestra ```"Inicia sesión"```
+Esto se logra usando el operador ternario:
+```condición ? valor_si_verdadero : valor_si_falso```
+
+💡 ¿Por qué es útil?
+
+En React muchas veces necesitas mostrar diferentes elementos en función del estado, por ejemplo:
+* Un usuario logueado vs. uno anónimo
+* Un carrito lleno vs. uno vacío
+* Un botón activado vs. desactivado
+Esto lo puedes resolver elegantemente con ternarios dentro del JSX.
 
 #### 📄 Ejemplo 3: aplicar estilos
 
@@ -268,8 +320,36 @@ function Estilizado() {
   return <p style={estilo}>¡Este texto tiene estilo JSX!</p>;
 }
 ```
+✅ ¿Qué hace este componente?
+Este componente:
+ 1. Declara un objeto ```estilo``` con propiedades CSS (en camelCase)
+ 2. Usa ese objeto para aplicar estilos en línea al párrafo ```<p>```
+El resultado es un texto centrado, en color tomate y con fuente de 20px.
+
+🧠 ¿Qué debes saber sobre estilos en React?
+* Los estilos en línea en JSX se pasan como un objeto de JavaScript
+* Las propiedades CSS se escriben en camelCase (no ```font-size```, sino ```fontSize```)
+* El valor de cada propiedad debe ir entre comillas como string (por ejemplo, ```"tomato"```)
+
+💡 ¿Cuándo usar estilos en línea?
+* Para estilos rápidos o condicionales
+* Cuando no necesitas un archivo CSS externo
+* En componentes muy pequeños o reutilizables
+
+ 🧪 Alternativa:
+ 
+Podrías aplicar ese mismo estilo directamente en el elemento así:
+
+```jsx
+<p style={{ color: "tomato", fontSize: "20px", textAlign: "center" }}>
+  ¡Este texto tiene estilo JSX!
+</p>
+```
+Pero es mejor práctica guardar los estilos en una constante si los vas a reutilizar o si son muchos. 
 
 #### 📄 Ejemplo 4: fragmentos y múltiples elementos
+
+JSX solo puede devolver un elemento padre, así que usamos un contenedor (div, section) o un fragmento:
 
 ```jsx
 function Fragmento() {
@@ -280,6 +360,44 @@ function Fragmento() {
     </>
   );
 }
+```
+
+✅ ¿Qué hace este componente?
+
+Este componente devuelve dos elementos HTML consecutivos sin necesidad de envolverlos en un ```div```.
+Gracias a los fragmentos (```<> </>```), se puede agrupar múltiples elementos sin añadir nodos extra al DOM.
+
+🧠 ¿Por qué es importante?
+
+JSX solo permite retornar un único nodo raíz.
+Eso quiere decir que este código no funcionaría:
+
+```jsx
+return (
+  <h2>Título</h2>
+  <p>Texto</p>
+);
+```
+
+Tienes dos opciones para solucionarlo:
+1. Usar un contenedor como <div>, <section>, etc.
+2. Usar un fragmento vacío: <> ... </> (como en el ejemplo)
+
+💡 ¿Cuándo usar fragmentos?
+
+* Cuando no necesitas un div visualmente, pero React te obliga a agrupar.
+* Evitas generar elementos HTML innecesarios que podrían afectar el diseño o el DOM.
+
+✅ Alternativa más explícita:
+También puedes usar la forma completa de React.Fragment:
+
+```jsx
+return (
+  <React.Fragment>
+    <h2>Título</h2>
+    <p>Texto</p>
+  </React.Fragment>
+);
 ```
 
 ### 🎯 Ejercicios para ti:
