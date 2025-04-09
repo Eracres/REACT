@@ -207,26 +207,109 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 * Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
 * Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
-### 🧪 Ejemplo básico:
+### 📌 Diferencias entre HTML y JSX
+
+| En HTML        | En JSX                             |
+|---------------|------------------------------------|
+| ```class```     | ```className```       |
+| ```for```    | ```htmlFor``` |
+| ```onclick```    | ```onClick```      |
+| Atributos vacíos | Se escriben como booleanos: ```disabled={true}``` |
+| Etiquetas deben cerrarse | ```img```, ```input```, etc. se cierran como ```<img />``` |
+
+### 💡 Recordatorio: JSX es solo sintaxis
+Dentro del JSX puedes usar JavaScript puro entre llaves {}:
 
 ```jsx
-function ComponenteJSX() {
- const nombre = "React";
- return (x
-	# Hola desde {nombre} ¡Esto es JSX funcionando!
- );
-}
+const usuario = "Lucía";
+return <h2>Bienvenida, {usuario}</h2>;
 ```
+
+### 🧪 Ejemplos básicos:
+
+#### 📄 Ejemplo 1: básico
 
 Este componente mezcla código JavaScript (```const nombre = "React"```) con etiquetas JSX (parecidas a HTML). Lo que aparece entre llaves {} dentro del JSX es interpretado como una expresión de JavaScript.
 
-### 🎯 Ejercicio para ti:
+```jsx
+function ComponenteJSX() {
+  const nombre = "React";
+  return (
+    <div>
+      <h1>Hola desde {nombre}</h1>
+      <p>¡Esto es JSX funcionando!</p>
+    </div>
+  );
+}
+```
 
+#### 📄 Ejemplo 2: condicionales y ternarios
+
+```jsx
+function Mensaje(props) {
+  return (
+    <div>
+      <h2>{props.logueado ? "Bienvenido" : "Inicia sesión"}</h2>
+    </div>
+  );
+}
+```
+
+#### 📄 Ejemplo 3: aplicar estilos
+
+```jsx
+function Estilizado() {
+  const estilo = {
+    color: "tomato",
+    fontSize: "20px",
+    textAlign: "center"
+  };
+
+  return <p style={estilo}>¡Este texto tiene estilo JSX!</p>;
+}
+```
+
+#### 📄 Ejemplo 4: fragmentos y múltiples elementos
+
+```jsx
+function Fragmento() {
+  return (
+    <>
+      <h2>Título</h2>
+      <p>Parrafo debajo del título</p>
+    </>
+  );
+}
+```
+
+### 🎯 Ejercicios para ti:
+
+🧩 Ejercicio 1:
 Crea un componente llamado BienvenidaJSX que:
+* Declare una variable usuario = "María".
+* Devuelva un div con un saludo: "Hola, María. Bienvenida a React" (usando interpolación con {}).
 
-1. Declare una variable usuario = "María".
-2. Devuelva un div con un saludo que diga: "Hola, María. Bienvenida a React".
-3. El texto debe construirse utilizando interpolación con {}.
+🧩 Ejercicio 2:
+Crea un componente SumaJSX que:
+* Declare dos variables a = 5, b = 7
+* Muestra un párrafo que diga:
+"El resultado de 5 + 7 es: 12"
+(usando la suma dentro del JSX con {a + b})
+
+🧩 Ejercicio 3:
+Crea un componente TarjetaUsuario que:
+* Declare un objeto usuario = { nombre: "Ana", edad: 25 }
+* Devuelva un div con un título y un párrafo mostrando:
+	* Nombre del usuario
+	* Edad del usuario
+* Usa estilos en línea para darle color al texto
+
+🧩 Ejercicio 4 (Bonus):
+Crea un componente ComponenteCondicional que:
+* Reciba una prop llamada admin
+* Si admin es true, muestra: "Tienes acceso total"
+* Si false, muestra: "Acceso limitado"
+* Usa un operador ternario dentro del JSX
 
 ---
 <a name="modulo-4-componentes-funcionales-y-de-clase"></a>
