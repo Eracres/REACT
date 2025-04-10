@@ -380,8 +380,8 @@ return (
 ```
 
 Tienes dos opciones para solucionarlo:
-1. Usar un contenedor como <div>, <section>, etc.
-2. Usar un fragmento vacío: <> ... </> (como en el ejemplo)
+1. Usar un contenedor como ```<div>```, ```<section>```, etc.
+2. Usar un fragmento vacío: ```<> ... </>``` (como en el ejemplo)
 
 💡 ¿Cuándo usar fragmentos?
 
