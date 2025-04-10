@@ -248,7 +248,7 @@ function ComponenteJSX() {
 
 Este componente muestra un saludo dinámico usando una variable declarada en JavaScript (```const nombre = "React"```).
 * Dentro del ```return```, usamos JSX para crear una estructura HTML-like.
-* Utiliza ```{nombre}``` para insertar dinámicamente el valor ```"React"``` dentro del texto del <h1>.
+* Utiliza ```{nombre}``` para insertar dinámicamente el valor ```"React"``` dentro del texto del ```<h1>```.
 * Luego, muestra un ```<p>``` con un mensaje fijo.
 
 🧠 ¿Qué conceptos aplica?
