@@ -40,7 +40,7 @@ Empresas líderes que usan React en producción:
 
 ![deepseek_mermaid_20250429_e2139c](https://github.com/user-attachments/assets/93f867b3-47e9-4639-b338-68cd22b6710c)
 
-🧪 Ejemplos básicos:
+#🧪 Ejemplos básicos:
 
 * [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
 * [📐Ejemplo 2](./Ejemplos/Ejemplo_2.md)
