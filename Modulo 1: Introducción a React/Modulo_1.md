@@ -42,6 +42,6 @@ Empresas líderes que usan React en producción:
 
 🧪 Ejemplos básicos:
 
-[📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
-[📐Ejemplo 2](./Ejemplos/Ejemplo_2.md)
+* [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📐Ejemplo 2](./Ejemplos/Ejemplo_2.md)
 
