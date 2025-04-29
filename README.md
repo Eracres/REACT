@@ -2,8 +2,10 @@
 
 ## 🗂️ Temario General del Curso
 
+
+
 1. [Introducción a React ](./Módulo_1:_Introducción_a_React/Modulo_1.md)
-2. [Configuración del entorno de desarrollo ](#modulo-2-configuración-del-entorno-de-desarrollo) 
+2. [Configuración del entorno de desarrollo ](./Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md) 
 3. [JSX: Sintaxis especial de React](#modulo-3-jsx-sintaxis-especial-de-react)  
 4. [Componentes (Funcionales y de Clase)](#modulo-4-componentes-funcionales-y-de-clase)
 5. [Props (Propiedades entre componentes)](#modulo-5-props-propiedades-entre-componentes)
