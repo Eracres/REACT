@@ -36,5 +36,7 @@ Empresas líderes que usan React en producción:
 - Netflix (Navegación)
 - WhatsApp Web
 
+### 📌 Conceptos clave
+
 ![deepseek_mermaid_20250429_e2139c](https://github.com/user-attachments/assets/93f867b3-47e9-4639-b338-68cd22b6710c)
 
