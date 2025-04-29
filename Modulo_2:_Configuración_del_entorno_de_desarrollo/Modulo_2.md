@@ -1,18 +1,17 @@
-<a name="modulo-2-configuración-del-entorno-de-desarrollo"></a>
-## 📘 Módulo 2: Configuración del Entorno de Desarrollo
+# 📘 Módulo 2: Configuración del Entorno de Desarrollo
 
-### 🎯 Objetivos
+## 🎯 Objetivos
 - Configurar entorno profesional con herramientas modernas
 - Dominar estructura de proyectos React
 - Implementar ESLint + Prettier para código limpio
 - Optimizar workflow de desarrollo
 
-### ❓ ¿Cómo empezar con React?
+## ❓ ¿Cómo empezar con React?
 
 Para desarrollar con React de forma profesional, lo ideal es tener un entorno que nos permita comenzar rápido, sin perder tiempo en configuraciones innecesarias. Para eso existe una herramienta oficial: Create React App.
 Create React App es un scaffolding tool que genera un proyecto React completo, listo para empezar, con todo configurado: Babel, Webpack, React y más.
 
-### 🛠️ Cómo crear tu primer proyecto React:
+## 🛠️ Cómo crear tu primer proyecto React:
 
 1. Instalar Node.js y npm, para comprobar si estan instalados, usar estos comandos:
 
@@ -43,7 +42,7 @@ npm start
 
 Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplicación React funcionando. ¡Ya tienes tu primer entorno ⚛️ montado!
 
-### 🗂️ Estructura básica del proyecto
+## 🗂️ Estructura básica del proyecto
 
 ```
 📦 mi-app/
@@ -64,7 +63,7 @@ Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplic
 └── 📄 package.json     → Dependencias y scripts del proyecto
 ```
 
-### 🔧 Configuración Esencial:
+## 🔧 Configuración Esencial:
 
 **ESLint + Prettier**
 
@@ -100,6 +99,12 @@ module.exports = {
 }
 ```
 
-### 🧼 Recomendación como desarrollador:
+## 🧼 Recomendación como desarrollador:
 
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
+
+---
+
+### Sigue este paso...
+
+## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md)
