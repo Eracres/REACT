@@ -36,7 +36,7 @@ Empresas líderes que usan React en producción:
 - Netflix (Navegación)
 - WhatsApp Web
 
-```
+```jsx
 graph TD
     A[React] --> B[Componentes]
     A --> C[Estado]
