@@ -45,6 +45,6 @@ Empresas líderes que usan React en producción:
 * [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
 * [📐Ejemplo 2](./Ejemplos/Ejemplo_2.md)
 
+Sigue este paso...
 
-
-# Modulo 2 [➡️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md)
+## Módulo 2: Configuración del Entorno de Desarrollo [➡️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md)
