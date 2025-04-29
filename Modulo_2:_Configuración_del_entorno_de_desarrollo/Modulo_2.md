@@ -103,6 +103,10 @@ module.exports = {
 
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
 
+# 🧪 Ejemplos básicos:
+
+* [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+
 ---
 
 ## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
