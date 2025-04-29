@@ -105,6 +105,4 @@ Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae 
 
 ---
 
-### Sigue este paso...
-
 ## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md)
