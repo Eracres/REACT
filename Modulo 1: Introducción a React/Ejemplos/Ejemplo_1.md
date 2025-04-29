@@ -1,4 +1,4 @@
-### 🧪 Ejemplo básico: crear un componente
+### 🧪 Ejemplo básico 1: 
 
 Puedes crear HolaMundo directamente dentro del archivo App.js, o mejor aún, en su propio archivo para seguir buenas prácticas.
 
