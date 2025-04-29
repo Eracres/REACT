@@ -1,4 +1,3 @@
-<a name="modulo-1-introducción-a-React"></a>
 # 📘 Módulo 1: Introducción a React
 
 ## 🎯 Objetivos
