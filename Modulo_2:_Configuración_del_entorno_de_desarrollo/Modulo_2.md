@@ -105,4 +105,4 @@ Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae 
 
 ---
 
-## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md)
+## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
