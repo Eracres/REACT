@@ -1,6 +1,12 @@
 <a name="modulo-2-configuración-del-entorno-de-desarrollo"></a>
 ## 📘 Módulo 2: Configuración del Entorno de Desarrollo
 
+### 🎯 Objetivos
+- Configurar entorno profesional con herramientas modernas
+- Dominar estructura de proyectos React
+- Implementar ESLint + Prettier para código limpio
+- Optimizar workflow de desarrollo
+
 ### ❓ ¿Cómo empezar con React?
 
 Para desarrollar con React de forma profesional, lo ideal es tener un entorno que nos permita comenzar rápido, sin perder tiempo en configuraciones innecesarias. Para eso existe una herramienta oficial: Create React App.
@@ -40,13 +46,58 @@ Esto abrirá automáticamente el navegador en http://localhost:3000 con tu aplic
 ### 🗂️ Estructura básica del proyecto
 
 ```
-📦 mi-app
-├── 📁 public               → Contiene el HTML principal (`index.html`)
-│   └── 📄 index.html
-├── 📁 src                  → Aquí va todo tu código React
-│   ├── 📄 App.js           → Componente principal de la aplicación
-│   └── 📄 index.js         → Punto de entrada que renderiza `App.js`
-└── 📄 package.json         → Dependencias y scripts del proyecto
+📦 mi-app/
+├── 📁 public/          → Assets estáticos
+├── 📁 src/
+│   ├── 📁 assets/      → Imágenes/fuentes
+│   ├── 📁 components/  → Componentes reutilizables
+│   ├── 📁 hooks/       → Custom hooks
+│   ├── 📁 pages/       → Vistas/páginas
+│   ├── 📁 styles/      → Estilos globales
+│   ├── 📁 utils/       → Funciones helper
+│   ├── 📄 App.jsx      → Componente raíz
+│   ├── 📄 index.js     → Punto de entrada que renderiza `App.js`
+│   └── 📄 main.jsx     → Entry point
+├── 📄 .eslintrc.cjs    → Configuración ESLint
+├── 📄 .prettierrc      → Configuración Prettier
+├── 📄 vite.config.js   → Configuración Vite
+└── 📄 package.json     → Dependencias y scripts del proyecto
+```
+
+### 🔧 Configuración Esencial:
+
+**ESLint + Prettier**
+
+1. Instalar dependencias:
+
+```bash
+npm install -D eslint eslint-plugin-react eslint-config-prettier prettier
+```
+
+2. Archivo ```.eslintrc.cjs```:
+
+```js
+module.exports = {
+  env: { browser: true, es2021: true },
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "eslint-config-prettier"
+  ],
+  rules: {
+    "react/react-in-jsx-scope": "off"
+  }
+}
+```
+   
+3. Archivo ```.prettierrc```:
+
+```json
+{
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true
+}
 ```
 
 ### 🧼 Recomendación como desarrollador:
