@@ -1,18 +1,18 @@
-## 📘 Módulo 3: JSX – Sintaxis especial de React
+# 📘 Módulo 3: JSX – Sintaxis especial de React
 
-### ❓ ¿Qué es JSX?
+## ❓ ¿Qué es JSX?
 
 JSX (JavaScript XML) es una extensión de sintaxis para JavaScript que nos permite escribir código muy similar a HTML dentro de archivos JavaScript.
 
 En lugar de separar la lógica y la interfaz como en otros frameworks, React propone una mezcla controlada: combinamos lógica y estructura de forma declarativa usando JSX.
 
-### 🔎 ¿Por qué es útil JSX?
+## 🔎 ¿Por qué es útil JSX?
 
 - Nos permite ver visualmente la estructura del componente.
 - Es más legible y cercano al HTML tradicional.
 - Aumenta la productividad al unir lógica y presentación en un solo lugar.
 
-### 🚨 Importante:
+## 🚨 Importante:
 
 JSX no es HTML real, aunque lo parezca. Por ejemplo:
 
@@ -20,7 +20,7 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 * Todos los elementos deben cerrarse correctamente (por ejemplo: ![]()).
 * Los atributos siguen la convención camelCase (onClick, tabIndex, etc).
 
-### 📌 Diferencias entre HTML y JSX
+## 📌 Diferencias entre HTML y JSX
 
 | En HTML        | En JSX                             |
 |---------------|------------------------------------|
@@ -30,7 +30,7 @@ JSX no es HTML real, aunque lo parezca. Por ejemplo:
 | Atributos vacíos | Se escriben como booleanos: ```disabled={true}``` |
 | Etiquetas deben cerrarse | ```img```, ```input```, etc. se cierran como ```<img />``` |
 
-### 💡 Recordatorio: JSX es solo sintaxis
+## 💡 Recordatorio: JSX es solo sintaxis
 
 Dentro del JSX puedes usar JavaScript puro entre llaves {}:
 
@@ -39,58 +39,7 @@ const usuario = "Lucía";
 return <h2>Bienvenida, {usuario}</h2>;
 ```
 
-### 🧪 Ejemplos básicos:
-
-#### 📄 Ejemplo 1: básico
-
-Este componente mezcla código JavaScript (```const nombre = "React"```) con etiquetas JSX (parecidas a HTML). Lo que aparece entre llaves {} dentro del JSX es interpretado como una expresión de JavaScript.
-
-```jsx
-function ComponenteJSX() {
-  const nombre = "React";
-  return (
-    <div>
-      <h1>Hola desde {nombre}</h1>
-      <p>¡Esto es JSX funcionando!</p>
-    </div>
-  );
-}
-```
-
-✅ ¿Qué hace este componente?
-
-Este componente muestra un saludo dinámico usando una variable declarada en JavaScript (```const nombre = "React"```).
-* Dentro del ```return```, usamos JSX para crear una estructura HTML-like.
-* Utiliza ```{nombre}``` para insertar dinámicamente el valor ```"React"``` dentro del texto del ```<h1>```.
-* Luego, muestra un ```<p>``` con un mensaje fijo.
-
-🧠 ¿Qué conceptos aplica?
-
-* Interpolación de variables: con ```{}``` dentro de JSX puedes mostrar cualquier expresión de JavaScript.
-* Encapsulamiento de UI: este componente podría reutilizarse con diferentes textos.
-* Elementos anidados en un contenedor (```<div>```): JSX requiere que todo esté envuelto en un solo elemento padre.
-
-✅ ¿Qué puedes aprender de esto?
-
-* JSX no es HTML, pero se le parece mucho.
-* Todo lo que escribas dentro del ```return``` tiene que estar envuelto en un solo nodo raíz.
-* Las variables dentro del JSX deben ir entre llaves ```{}```.
-
-💡 Variaciones sugeridas:
-
-Puedes transformar el nombre en mayúsculas directamente:
-
-```jsx
-<h1>Hola desde {nombre.toUpperCase()}</h1>
-```
-
-O usar props para hacerlo reutilizable:
-
-```jsx
-function ComponenteJSX(props) {
-  return <h1>Hola desde {props.nombre}</h1>;
-}
-```
+## 🧪 Ejemplos básicos:
 
 #### 📄 Ejemplo 2: condicionales y ternarios
 
@@ -213,7 +162,7 @@ return (
 );
 ```
 
-### 🎯 Ejercicios para ti:
+## 🎯 Ejercicios para ti:
 
 🧩 Ejercicio 1:
 Crea un componente llamado BienvenidaJSX que:
@@ -241,3 +190,6 @@ Crea un componente ComponenteCondicional que:
 * Si admin es true, muestra: "Tienes acceso total"
 * Si false, muestra: "Acceso limitado"
 * Usa un operador ternario dentro del JSX
+---
+
+## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
