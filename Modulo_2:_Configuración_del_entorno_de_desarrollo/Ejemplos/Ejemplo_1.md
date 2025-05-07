@@ -1,4 +1,4 @@
-### 🧪 Ejemplo básico:
+# 🧪 Ejemplo básico:
 
 En index.js deberías tener algo como esto:
 
