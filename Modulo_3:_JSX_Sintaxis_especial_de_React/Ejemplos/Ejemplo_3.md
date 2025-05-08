@@ -37,3 +37,6 @@ Podrías aplicar ese mismo estilo directamente en el elemento así:
 </p>
 ```
 Pero es mejor práctica guardar los estilos en una constante si los vas a reutilizar o si son muchos. 
+
+---
+## Ejercicio 4 [➡️](../Ejemplos/Ejemplo_4.md)
