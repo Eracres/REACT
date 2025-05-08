@@ -48,4 +48,6 @@ function ComponenteJSX(props) {
   return <h1>Hola desde {props.nombre}</h1>;
 }
 ```
-```
+---
+
+## Ejercicio 2 [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Ejemplos/Ejemplo_2.md)
