@@ -103,7 +103,7 @@ module.exports = {
 
 Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae App.js, App.css, y borrar logo.svg. Así puedes construir tu aplicación desde cero con total control.
 
-# 🧪 Ejemplos básicos:
+## 🧪 Ejemplos básicos:
 
 * [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
 
