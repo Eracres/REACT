@@ -26,4 +26,5 @@ En React muchas veces necesitas mostrar diferentes elementos en función del est
 * Un botón activado vs. desactivado
 Esto lo puedes resolver elegantemente con ternarios dentro del JSX.
 
-
+---
+## Ejercicio 3 [➡️](../Ejemplos/Ejemplo_3.md)
