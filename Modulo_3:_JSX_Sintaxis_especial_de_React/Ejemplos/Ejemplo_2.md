@@ -25,3 +25,5 @@ En React muchas veces necesitas mostrar diferentes elementos en función del est
 * Un carrito lleno vs. uno vacío
 * Un botón activado vs. desactivado
 Esto lo puedes resolver elegantemente con ternarios dentro del JSX.
+
+
