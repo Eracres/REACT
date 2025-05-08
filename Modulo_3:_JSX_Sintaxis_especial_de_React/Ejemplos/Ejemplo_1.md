@@ -49,5 +49,4 @@ function ComponenteJSX(props) {
 }
 ```
 ---
-
 ## Ejercicio 2 [➡️](../Ejemplos/Ejemplo_2.md)
