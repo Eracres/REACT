@@ -190,6 +190,14 @@ Crea un componente ComponenteCondicional que:
 * Si admin es true, muestra: "Tienes acceso total"
 * Si false, muestra: "Acceso limitado"
 * Usa un operador ternario dentro del JSX
+
+# 🧪 Ejemplos básicos:
+
+* [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📐Ejemplo 2](./Ejemplos/Ejemplo_2.md)
+* [📐Ejemplo 3](./Ejemplos/Ejemplo_3.md)
+* [📐Ejemplo 4](./Ejemplos/Ejemplo_4.md)
+
 ---
 
 ## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
