@@ -50,4 +50,4 @@ function ComponenteJSX(props) {
 ```
 ---
 
-## Ejercicio 2 [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Ejemplos/Ejemplo_2.md)
+## Ejercicio 2 [➡️](../Ejemplos/Ejemplo_2.md)
