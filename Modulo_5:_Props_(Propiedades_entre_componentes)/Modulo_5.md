@@ -164,3 +164,5 @@ Crea un componente `BotonAccion` que:
 ---
 
 ## [⬅️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md) Módulo 3 ... Módulo 5 [➡️](../Modulo_5:_Props_(Propiedades_entre_componentes)/Modulo_5.md)
+
+## [🏠 Inicio](../../README.md)
