@@ -1,4 +1,4 @@
-# 🎯 Ejercicio 3: MensajeBienvenida
+# 🎯 Ejercicio 3: Mensaje de bienvenida
 
 1. Crea un componente llamado `MensajeBienvenida`.
 2. Recibe una prop `usuario` y muestra:
