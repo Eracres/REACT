@@ -32,4 +32,4 @@ function TarjetaUsuario({ nombre, edad }) {
 <TarjetaUsuario nombre="Luis" edad={30} />
 ```
 
-Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md)
+[⬅️](../Ejemplos/Ejemplo_3.md) Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md)
