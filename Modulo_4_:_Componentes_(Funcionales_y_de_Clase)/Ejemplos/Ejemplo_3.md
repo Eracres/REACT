@@ -43,4 +43,4 @@ constructor(props) {
 
 ---
 
-## Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
+## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
