@@ -172,18 +172,3 @@ Uso:
 
 Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML
 
-## 🎯 Ejercicio para ti:
-
-1. Crea un componente llamado PerfilUsuario.
-2. Dentro de él, muestra lo siguiente:
-* Un título ##  con el texto “Perfil del usuario”.
-* Un párrafo  con el nombre ficticio de un usuario.
-* Importa y usa el componente dentro de App.js.
-
-## 🎯 Ejercicio para ti
-
-1. Crea un componente llamado `PerfilUsuario`
-2. Dentro de él, muestra:
-   - Un título `h2` con el texto “Perfil del usuario”
-   - Un párrafo con el nombre de un usuario ficticio
-3. Importa y usa el componente dentro de `App.js` como `<PerfilUsuario />`
