@@ -1,20 +1,25 @@
+
 # 📘 Módulo 4: Componentes (Funcionales y de Clase)
 
 ## ❓ ¿Qué es un componente en React?
 
-Un componente es una pieza reutilizable de la interfaz de usuario. En React, todo se basa en componentes. Puedes pensar en ellos como bloques de LEGO que se combinan para construir toda tu aplicación.
+Un **componente** es una unidad funcional y visual que representa una **parte de la interfaz de usuario**.  
+Todo en React gira en torno a los componentes. Puedes pensarlos como **bloques de LEGO** que se ensamblan para construir toda tu aplicación.
 
-Cada componente:
+### 📦 ¿Qué hace un componente?
 
-* Encapsula su propia lógica y vista.
-* Se puede reutilizar múltiples veces.
-* Puede recibir datos mediante props y manejar su propio estado.
+- Encapsula su propia lógica y vista
+- Se puede reutilizar en diferentes partes del proyecto
+- Puede recibir datos con **props**
+- Puede gestionar su propio **estado interno**
 
-## 🧱 Tipos de componentes
+---
 
-1. Componentes funcionales (los más comunes actualmente)
+## 🧱 Tipos de componentes en React
 
-Son funciones de JavaScript que devuelven JSX. Se utilizan junto con [hooks](#modulo-6-estado-con-usestate) (useState, useEffect, etc).
+### 1. ✅ Componentes funcionales (actual estándar)
+
+Los componentes funcionales son **funciones JavaScript** que retornan JSX.
 
 ```jsx
 function Tarjeta() {
@@ -22,36 +27,147 @@ function Tarjeta() {
 }
 ```
 
-2. Componentes de clase (en desuso, pero útiles de conocer)
-   
-Son clases que extienden ```React.Component``` y tienen un método ```render()```.
+Son más simples, eficientes y compatibles con **Hooks** (`useState`, `useEffect`, etc.).
 
-```import React, { Component } from 'react'```;
+---
+
+### 2. 🕰️ Componentes de clase (en desuso pero útiles de conocer)
 
 ```jsx
-class TarjetaClase extends React.Component {
+import React, { Component } from 'react';
+
+class TarjetaClase extends Component {
   render() {
     return <p>Componente de clase</p>;
   }
 }
 ```
 
-Hoy en día se recomienda usar componentes funcionales con [hooks](#modulo-6-estado-con-usestate) porque son más sencillos y modernos.
+Usan `render()` para retornar JSX y métodos de ciclo de vida como `componentDidMount`. Se ven cada vez menos, pero aparecen en proyectos antiguos.
 
-## 📢 Convenciones
+---
 
-* Los componentes deben tener su nombre en mayúscula inicial (ej: Saludo, no saludo).
-* Un archivo por componente es una buena práctica (por ejemplo, Saludo.js).
-* Siempre deben retornar un solo elemento padre (por eso usamos  o React fragments).
+### 👑 ¿Cuál deberías usar hoy?
 
-## 🧪 Ejemplo básico:
+✅ **Componentes funcionales + Hooks**  
+Son el estándar moderno por su simplicidad, compatibilidad y rendimiento.
+
+---
+
+## 📢 Convenciones clave
+
+- ✅ El nombre del componente debe empezar en mayúscula (`Tarjeta`, no `tarjeta`)
+- 📁 Recomendable: un archivo por componente (`PerfilUsuario.js`)
+- ⚠️ Un componente debe devolver un único elemento raíz (`<div>` o `<>` fragmentos)
+
+---
+
+## 🧠 Composición de componentes
 
 ```jsx
-function Tarjeta() {
- return (
-	### React es genial 😎 Este es un componente funcional
- );
+function PerfilCompleto() {
+  return (
+    <div>
+      <FotoPerfil />
+      <PerfilUsuario />
+    </div>
+  );
 }
+```
+
+Permite reutilizar código y dividir lógica visual.
+
+---
+
+## 🧬 Ciclo de vida de componentes de clase
+
+| Método                  | Cuándo se ejecuta                             |
+|------------------------|-----------------------------------------------|
+| `constructor()`        | Al instanciar el componente                   |
+| `componentDidMount()`  | Tras renderizar por primera vez               |
+| `componentDidUpdate()` | Tras actualizar props o estado                |
+| `componentWillUnmount()`| Antes de eliminar el componente del DOM      |
+
+🆚 Equivalentes modernos con `useEffect` en componentes funcionales.
+
+---
+
+## 🔄 ¿Cuándo se vuelve a renderizar?
+
+Cuando:
+
+- Cambian las `props`
+- Cambia el `estado` (`useState`, `setState`)
+- Su componente padre se vuelve a renderizar
+
+---
+
+## 🧠 Composición vs Herencia
+
+React recomienda la **composición** sobre la herencia.
+
+```jsx
+function Layout({ children }) {
+  return <div className="container">{children}</div>;
+}
+```
+
+Uso:
+
+```jsx
+<Layout>
+  <PerfilUsuario />
+</Layout>
+```
+
+---
+
+## ⚙️ Reglas importantes con Hooks
+
+1. El nombre del componente debe comenzar con mayúscula
+2. No usar Hooks dentro de condicionales o bucles
+3. Siempre devolver un único nodo raíz
+
+---
+
+## ✅ Buenas prácticas
+
+- Componentes pequeños y reutilizables
+- Separación en carpetas individuales
+- Props bien definidas
+- Evitar duplicación de lógica (usa Hooks)
+- Documenta bien tu componente
+
+---
+
+## 📦 Ejemplo adicional: componente reutilizable con props
+
+```jsx
+function TarjetaUsuario({ nombre, edad }) {
+  return (
+    <div className="tarjeta">
+      <h3>{nombre}</h3>
+      <p>Edad: {edad}</p>
+    </div>
+  );
+}
+```
+
+Uso:
+
+```jsx
+<TarjetaUsuario nombre="Ana" edad={25} />
+<TarjetaUsuario nombre="Luis" edad={30} />
+```
+---
+
+## 💡 Bonus:
+
+🧪 Crea un componente `BotonPersonalizado` que reciba una prop `texto` y la muestre como contenido del botón.
+
+```jsx
+<BotonPersonalizado texto="Enviar" />
+<BotonPersonalizado texto="Cancelar" />
 ```
 
 Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML
@@ -63,3 +179,11 @@ Este componente puede usarse dentro de otro componente como si fuera una etiquet
 * Un título ##  con el texto “Perfil del usuario”.
 * Un párrafo  con el nombre ficticio de un usuario.
 * Importa y usa el componente dentro de App.js.
+
+## 🎯 Ejercicio para ti
+
+1. Crea un componente llamado `PerfilUsuario`
+2. Dentro de él, muestra:
+   - Un título `h2` con el texto “Perfil del usuario”
+   - Un párrafo con el nombre de un usuario ficticio
+3. Importa y usa el componente dentro de `App.js` como `<PerfilUsuario />`
