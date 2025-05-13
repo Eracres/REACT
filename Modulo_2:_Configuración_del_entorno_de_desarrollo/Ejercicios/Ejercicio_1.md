@@ -1,9 +1,9 @@
-### 🧩 Ejercicio: Primer componente en React
+# 📋 Ejercicio: Primer componente en React
 
-### ✅ Objetivo:
+## 🎯  Objetivo:
 Crear tu primer componente funcional en React.
 
-### 📝 Instrucciones:
+## 📝 Instrucciones:
 1. Crea una nueva aplicación React con npx create-react-app.
 2. Limpia el contenido de App.js.
 3. Pega el componente HolaMundo del [📘 Módulo 1](../../Módulo_1:_Introducción_a_React/Ejemplos/Ejemplo_1.md).
