@@ -22,6 +22,6 @@ Practicar la **composición de componentes**.
 
 Volver a Modulo 4
 
-[📄](../Modulo_4.md)
+[📄](../Modulo_4.md) Modulo 4
 
-[🏠](../../README.md)
+[🏠](../../README.md) Inicio
