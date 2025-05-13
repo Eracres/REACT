@@ -2,10 +2,10 @@
 
 Este ejercicio te ayudará a trabajar con props de tipo string, number y boolean.
 
-### 🎯 Objetivo:
+## 🎯 Objetivo:
 Practicar el paso de múltiples props y condicionales en JSX.
 
-### 📝 Instrucciones:
+## 📝 Instrucciones:
 1. Crea un componente llamado `Producto`.
 2. Recibe por props: `nombre`, `precio` y `disponible`.
 3. Muestra la información dentro de un `<div>` con:
