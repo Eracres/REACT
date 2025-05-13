@@ -39,4 +39,10 @@ Podrías aplicar ese mismo estilo directamente en el elemento así:
 Pero es mejor práctica guardar los estilos en una constante si los vas a reutilizar o si son muchos. 
 
 ---
-## Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
+
+
+##  [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
+
+## [📄 Modulo 3](../Modulo_3.md) 
+
+## [🏠 Inicio](../../README.md)
