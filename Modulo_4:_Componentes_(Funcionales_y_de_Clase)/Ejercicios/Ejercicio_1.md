@@ -1,4 +1,4 @@
-# 🎯 Ejercicio 1:
+# 🎯 Ejercicio 1: Perfil de usuario
 
 1. Crea un componente llamado `PerfilUsuario`
 2. Dentro de él, muestra:
