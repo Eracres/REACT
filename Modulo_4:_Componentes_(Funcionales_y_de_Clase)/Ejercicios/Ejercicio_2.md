@@ -1,4 +1,4 @@
-# 🎯 Ejercicio 2: TarjetaProducto
+# 🎯 Ejercicio 2: Tarjeta producto
 
 1. Crea un componente llamado `TarjetaProducto`.
 2. Este componente debe recibir por props:
