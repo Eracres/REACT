@@ -140,6 +140,20 @@ Uso:
 
 ---
 
+## 🧪 Ejemplos básicos:
+
+* [📝Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📝Ejemplo 2](./Ejemplos/Ejemplo_2.md)
+* [📝Ejemplo 3](./Ejemplos/Ejemplo_3.md)
+* [📝Ejemplo 4](./Ejemplos/Ejemplo_4.md)
+
+## 🎯 Ejercicios para ti:
+
+* [📋Ejercicio 1](./Ejercicios/Ejercicio_1.md)
+* [📋Ejercicio 2](./Ejercicios/Ejercicio_2.md)
+* [📋Ejercicio 3](./Ejercicios/Ejercicio_3.md)
+* [📋Ejercicio 4](./Ejercicios/Ejercicio_4.md)
+
 ## 📦 Ejemplo adicional: componente reutilizable con props
 
 ```jsx
