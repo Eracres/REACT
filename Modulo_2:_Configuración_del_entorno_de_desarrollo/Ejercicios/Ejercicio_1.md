@@ -6,4 +6,4 @@
 4. Abre tu navegador y verifica que se vea correctamente el mensaje.
 
 
-Modulo 2: Configuración del entorno de desarrollo
+## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
