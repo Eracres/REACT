@@ -1,5 +1,15 @@
-# 🎯 Ejercicio 2:
+# 🎯 Ejercicio 2: TarjetaProducto
 
-* Dentro de él, muestra:
-   - Un título `h2` con el texto “Perfil del usuario”
-   - Un párrafo con el nombre de un usuario ficticio
+1. Crea un componente llamado `TarjetaProducto`.
+2. Este componente debe recibir por props:
+   - `nombre`
+   - `precio`
+   - `disponible` (booleano)
+3. Muestra esta información en pantalla en un `<div>`.
+4. Si `disponible` es `true`, muestra “Disponible ✅”.  
+   Si es `false`, muestra “No disponible ❌”.
+5. Usa el componente al menos dos veces con distintos productos dentro de `App.js`.
+
+---
+
+##  [⬅️](../Ejercicios/Ejercicio_1.md) Ejercicio 1 - Ejercicio 3 [➡️](../Ejericios/Ejercicio_3.md)
