@@ -27,4 +27,9 @@ En React muchas veces necesitas mostrar diferentes elementos en función del est
 Esto lo puedes resolver elegantemente con ternarios dentro del JSX.
 
 ---
-## Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md)
+
+##  [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md)
+
+## [📄 Modulo 3](../Modulo_3.md) 
+
+## [🏠 Inicio](../../README.md) 
