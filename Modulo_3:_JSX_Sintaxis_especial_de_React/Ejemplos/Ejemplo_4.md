@@ -51,4 +51,10 @@ return (
 );
 ```
 
-## Ejercicio 1[➡️](../Ejercicios/Ejercicio_1.md)
+---
+
+##  [⬅️](../Ejemplos/Ejemplo_3.md) Ejemplo 3 - Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md)
+
+## [📄 Modulo 3](../Modulo_3.md) 
+
+## [🏠 Inicio](../../README.md)
