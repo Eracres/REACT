@@ -168,8 +168,7 @@ return (
 * [📝Ejemplo 2](./Ejemplos/Ejemplo_2.md)
 * [📝Ejemplo 3](./Ejemplos/Ejemplo_3.md)
 * [📝Ejemplo 4](./Ejemplos/Ejemplo_4.md)
-* [📝Ejemplo 5](./Ejemplos/Ejemplo_5.md)
-* [📝Ejemplo 6](./Ejemplos/Ejemplo_6.md)
+
 
 ## 🎯 Ejercicios para ti:
 
