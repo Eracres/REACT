@@ -156,35 +156,4 @@ Uso:
 * [📋Ejercicio 3](./Ejercicios/Ejercicio_3.md)
 * [📋Ejercicio 4](./Ejercicios/Ejercicio_4.md)
 
-## 📦 Ejemplo adicional: componente reutilizable con props
-
-```jsx
-function TarjetaUsuario({ nombre, edad }) {
-  return (
-    <div className="tarjeta">
-      <h3>{nombre}</h3>
-      <p>Edad: {edad}</p>
-    </div>
-  );
-}
-```
-
-Uso:
-
-```jsx
-<TarjetaUsuario nombre="Ana" edad={25} />
-<TarjetaUsuario nombre="Luis" edad={30} />
-```
----
-
-## 💡 Bonus:
-
-🧪 Crea un componente `BotonPersonalizado` que reciba una prop `texto` y la muestre como contenido del botón.
-
-```jsx
-<BotonPersonalizado texto="Enviar" />
-<BotonPersonalizado texto="Cancelar" />
-```
-
-Este componente puede usarse dentro de otro componente como si fuera una etiqueta HTML
 
