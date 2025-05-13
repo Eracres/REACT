@@ -20,8 +20,6 @@ Practicar la **composición de componentes**.
 
 ##  [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Modulo 5 [➡️](../../Módulo_5:_Props_(Propiedades_entre_componentes)/Modulo_5.md)
 
-Volver a Modulo 4
+## [📄 Modulo 4](../Modulo_4.md) 
 
-[📄](../Modulo_4.md) Modulo 4
-
-[🏠](../../README.md) Inicio
+## [🏠 Inicio](../../README.md) 
