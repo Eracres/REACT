@@ -33,4 +33,4 @@ Puedes renderizar varios componentes uno tras otro:
 
 ---
 
-## Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md)
+##  [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md)
