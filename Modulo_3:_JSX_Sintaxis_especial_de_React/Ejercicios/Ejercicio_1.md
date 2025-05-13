@@ -1,7 +1,21 @@
-# 🧩 Ejercicio 1:
+# 📋  Ejercicio 1: Bienvenida con JSX
 
-Crea un componente llamado BienvenidaJSX que:
-* Declare una variable usuario = "María".
-* Devuelva un div con un saludo: "Hola, María. Bienvenida a React" (usando interpolación con {}).
+## 🎯 Objetivo:
+Usar variables y JSX para generar contenido dinámico.
 
-## Ejercicio 2[➡️](./Ejercicio_2.md)
+## 📝 Instrucciones:
+1. Crea un componente llamado `BienvenidaJSX`.
+2. Declara una variable `usuario = "María"`.
+3. Devuelve un `div` con un saludo:
+  ```jsx
+  Hola, María. Bienvenida a React
+  ```
+4. Usa interpolación con `{}` para insertar la variable.
+
+---
+
+##  [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejercicio 2 [➡️](./Ejercicio_2.md)
+
+## [📄 Modulo 3](../Modulo_3.md) 
+
+## [🏠 Inicio](../../README.md) 
