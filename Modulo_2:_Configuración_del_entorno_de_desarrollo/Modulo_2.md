@@ -105,11 +105,13 @@ Al empezar un nuevo proyecto, te recomiendo limpiar el código inicial que trae 
 
 ## 🧪 Ejemplos básicos:
 
-* [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📝Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+
 
 ## 🎯 Ejercicios para ti:
 
-* [📐Ejercicio 1](./Ejercicios/Ejercicio_1.md)
+* [📋Ejercicio 1](./Ejercicios/Ejercicio_1.md)
+
 ---
 
 ## Módulo 3: Configuración del Entorno de Desarrollo [➡️](../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
