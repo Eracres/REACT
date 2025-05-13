@@ -6,3 +6,5 @@ Crea un componente TarjetaUsuario que:
 	* Nombre del usuario
 	* Edad del usuario
 * Usa estilos en línea para darle color al texto
+
+## Ejercicio 4[➡️](./Ejercicio_4.md)
