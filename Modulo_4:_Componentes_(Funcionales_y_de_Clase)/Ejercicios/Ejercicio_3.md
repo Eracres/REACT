@@ -5,7 +5,7 @@
    - `"Hola, [usuario]. ¡Bienvenido de nuevo!"`
 3. Reutiliza este componente al menos dos veces con distintos nombres.
 
-##  [⬅️](../Ejercicios/Ejercicio_2.md) Ejercicio 2 - Ejercicio 4 [➡️](../Ejericios/Ejercicio_4.md)
+##  [⬅️](../Ejercicios/Ejercicio_2.md) Ejercicio 2 - Ejercicio 4 [➡️](./Ejercicio_4.md)
 
 ## [📄 Modulo 4](../Modulo_4.md) 
 
