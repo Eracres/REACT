@@ -12,7 +12,7 @@ Crea un componente SumaJSX que:
 
 ---
 
-##  [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejercicio 3 [➡️](./Ejercicio_3.md)
+##  [⬅️](../Ejercicios/Ejercicio_1.md) Ejercicio 1 - Ejercicio 3 [➡️](./Ejercicio_3.md)
 
 ## [📄 Modulo 3](../Modulo_3.md) 
 
