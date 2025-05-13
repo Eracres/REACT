@@ -162,35 +162,6 @@ return (
 );
 ```
 
-## 🎯 Ejercicios para ti:
-
-🧩 Ejercicio 1:
-Crea un componente llamado BienvenidaJSX que:
-* Declare una variable usuario = "María".
-* Devuelva un div con un saludo: "Hola, María. Bienvenida a React" (usando interpolación con {}).
-
-🧩 Ejercicio 2:
-Crea un componente SumaJSX que:
-* Declare dos variables a = 5, b = 7
-* Muestra un párrafo que diga:
-"El resultado de 5 + 7 es: 12"
-(usando la suma dentro del JSX con {a + b})
-
-🧩 Ejercicio 3:
-Crea un componente TarjetaUsuario que:
-* Declare un objeto usuario = { nombre: "Ana", edad: 25 }
-* Devuelva un div con un título y un párrafo mostrando:
-	* Nombre del usuario
-	* Edad del usuario
-* Usa estilos en línea para darle color al texto
-
-🧩 Ejercicio 4 (Bonus):
-Crea un componente ComponenteCondicional que:
-* Reciba una prop llamada admin
-* Si admin es true, muestra: "Tienes acceso total"
-* Si false, muestra: "Acceso limitado"
-* Usa un operador ternario dentro del JSX
-
 ## 🧪 Ejemplos básicos:
 
 * [📐Ejemplo 1](./Ejemplos/Ejemplo_1.md)
