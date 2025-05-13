@@ -179,4 +179,4 @@ return (
 
 ---
 
-## [⬅️](../Modulo_2:_Configuración_del_entorno_de_desarrollo)/Modulo_2.md) Módulo 2 ... Módulo 4 [➡️](../Modulo_4:_Componentes_(Funcionales_y_de_Clase)/Modulo_4.md)
+## [⬅️](../Modulo_2:_Configuración_del_entorno_de_desarrollo/Modulo_2.md) Módulo 2 ... Módulo 4 [➡️](../Modulo_4:_Componentes_(Funcionales_y_de_Clase)/Modulo_4.md)
