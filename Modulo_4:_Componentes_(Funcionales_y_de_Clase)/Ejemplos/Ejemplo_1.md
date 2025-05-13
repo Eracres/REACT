@@ -47,6 +47,8 @@ function Tarjeta({ titulo }) {
 }
 ```
 
+---
+
 ## Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md)
 
 ## [📄 Modulo 4](../Modulo_4.md) 
