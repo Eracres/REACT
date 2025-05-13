@@ -1,4 +1,4 @@
-# 🎯 Ejercicio 4: ContenedorConTitulo
+# 🎯 Ejercicio 4: Contenedor con titulo
 
 1. Crea un componente llamado `ContenedorConTitulo`.
 2. Debe recibir dos props:
