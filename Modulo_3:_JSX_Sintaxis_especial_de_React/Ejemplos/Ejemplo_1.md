@@ -50,3 +50,7 @@ function ComponenteJSX(props) {
 ```
 ---
 ## Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md)
+
+## [📄 Modulo 3](../Modulo_3.md) 
+
+## [🏠 Inicio](../../README.md) 
