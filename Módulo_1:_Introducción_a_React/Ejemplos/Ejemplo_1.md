@@ -62,6 +62,8 @@ export default App;
 
 Esto sería un componente muy básico en React.
 
+## 🔍 [Ver resultado](https://eracres.github.io/REACT-ejericicios?modulo=1&tipo=ejemplo&id=1)
+
 ---
 
 ##  Ejemplo 2 [➡️](./Ejemplo_2.md)
