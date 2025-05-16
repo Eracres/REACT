@@ -26,7 +26,7 @@ export default Saludo;
 ```
 ---
 
-[⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1
+## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1
 
 ## [📄 Modulo 1](../Modulo_1.md) 
 
