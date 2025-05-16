@@ -11,7 +11,7 @@ Crear tu primer componente funcional en React.
 
 ---
 
-##  [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1
+##  [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Módulo 3 [➡️](../../Modulo_3:_JSX_Sintaxis_especial_de_React/Modulo_3.md)
 
 ## [📄 Modulo 2](../Modulo_2.md) 
 
