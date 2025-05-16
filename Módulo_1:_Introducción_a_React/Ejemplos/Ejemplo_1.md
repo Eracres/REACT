@@ -64,6 +64,8 @@ Esto sería un componente muy básico en React.
 
 ---
 
-## Módulo 1 [➡️](./Modulo_1.md)
+##  Ejemplo 2 [➡️](./Ejemplo_2.md)
 
-## [🏠 Inicio](../README.md)
+## [📄 Modulo 1](../Modulo_1.md) 
+
+## [🏠 Inicio](../../README.md) 
