@@ -61,3 +61,9 @@ export default App;
 ```
 
 Esto sería un componente muy básico en React.
+
+---
+
+## Módulo 1 [➡️](./Modulo_1.md)
+
+## [🏠 Inicio](../README.md)
