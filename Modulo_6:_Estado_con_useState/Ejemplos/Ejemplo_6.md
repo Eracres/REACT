@@ -1,5 +1,7 @@
 # 🧪 Ejemplo 6: Contador con incremento personalizado
 
+Permite al usuario elegir en cuánto se incrementa el contador.
+
 ```jsx
 function ContadorPersonalizado() {
   const [contador, setContador] = useState(0);
@@ -21,22 +23,23 @@ function ContadorPersonalizado() {
 
 ✅ ¿Qué hace este componente?
 
-* Permite al usuario definir en cuánto se incrementa el contador.
-* Usa dos estados: uno para el contador y otro para el paso.
+* Deja al usuario definir cuánto aumentar el contador.
+* Usa dos estados: `contador` y `paso`.
 
 🧠 ¿Qué conceptos aplica?
 
-* Múltiples `useState`.
-* Inputs de tipo numérico.
-* Conversión de tipos (`Number`).
+* `useState` con múltiples valores.
+* Conversión de tipos con `Number`.
 
-✅ ¿Qué puedes aprender de esto?
+📌 Ejemplo de uso:
 
-* Cómo adaptar el comportamiento de un componente a entradas del usuario.
+```jsx
+<ContadorPersonalizado />
+```
 
 💡 Variaciones sugeridas:
 
-Agregar un botón para restar o reiniciar el contador.
+Agregar botones para restar y reiniciar.
 
 ---
 
