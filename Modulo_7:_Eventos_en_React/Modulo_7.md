@@ -58,6 +58,6 @@ Cuando se produce un evento, React ejecuta una **función manejadora** (handler)
 
 ---
 
-## [⬅️](../Modulo_6:_Estado_con_useStates)/Modulo_6.md) Módulo 6 ... Módulo 8 [➡️](../Modulo_8:_useEffect_–_Ciclo_de_vida_y_efectos_secundarios/Modulo_8.md)
+## [⬅️](../Modulo_6:_Estado_con_useStates/Modulo_6.md) Módulo 6 ... Módulo 8 [➡️](../Modulo_8:_useEffect_–_Ciclo_de_vida_y_efectos_secundarios/Modulo_8.md)
 
 ## [🏠 Inicio](../README.md)
