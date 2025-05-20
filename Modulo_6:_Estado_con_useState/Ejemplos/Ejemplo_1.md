@@ -1,5 +1,7 @@
 # 🧪 Ejemplo 1: Contador simple
 
+Este componente muestra un contador que puede incrementarse al hacer clic en un botón.
+
 ```jsx
 import { useState } from "react";
 
@@ -17,26 +19,23 @@ function Contador() {
 
 ✅ ¿Qué hace este componente?
 
-* Inicializa el contador en 0.
-* Muestra el valor en pantalla.
-* Aumenta el contador cada vez que haces clic en el botón.
+* Inicializa el contador en 0 y lo muestra en pantalla.
+* Aumenta el contador en 1 cada vez que se hace clic en el botón.
 
 🧠 ¿Qué conceptos aplica?
 
-* useState para manejar valores numéricos.
-* Eventos (`onClick`) para modificar el estado.
+* `useState` para valores numéricos.
+* Eventos con `onClick`.
 
-✅ ¿Qué puedes aprender de esto?
+📌 Ejemplo de uso:
 
-* Cada vez que se llama a `setContador`, React vuelve a renderizar el componente.
+```jsx
+<Contador />
+```
 
 💡 Variaciones sugeridas:
 
-Agregar un botón para restar:
-
-```jsx
-<button onClick={() => setContador(contador - 1)}>Restar</button>
-```
+Agregar botones para restar o reiniciar el contador.
 
 ---
 
