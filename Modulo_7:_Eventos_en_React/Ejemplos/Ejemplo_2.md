@@ -43,7 +43,7 @@ Agregar validación para que solo acepte letras.
 
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - [➡️](../Ejercicios/Ejercicio_1.md) Ejercicio 1
+## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md) 
 ## [📄 Modulo 7](../Modulo_7.md)
 ## [🏠 Inicio](../../README.md)
 
