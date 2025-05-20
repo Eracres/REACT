@@ -1,10 +1,21 @@
-# 🎯 Ejercicio 1: Perfil de usuario
+# 📋 Ejercicio 1: Perfil de usuario
 
-1. Crea un componente llamado `PerfilUsuario`
-2. Dentro de él, muestra:
-   - Un título `h2` con el texto “Perfil del usuario”
-   - Un párrafo con el nombre de un usuario ficticio
-3. Importa y usa el componente dentro de `App.js` como `<PerfilUsuario />`
+## 🎯 Objetivo:
+Aprender a construir un componente funcional simple y mostrar contenido estático.
+
+Este ejercicio permite familiarizarte con la estructura básica de un componente de React y su uso dentro del componente principal de la aplicación (`App.js`).
+
+## 📝 Instrucciones:
+1. Crea un componente llamado `PerfilUsuario`.
+2. Dentro de él, muestra lo siguiente:
+   - Un título `<h2>` con el texto: “Perfil del usuario”.
+   - Un párrafo `<p>` con el nombre de un usuario ficticio (ej. Juan Pérez).
+3. Importa y usa el componente dentro de `App.js` con la etiqueta:
+```jsx
+<PerfilUsuario />
+```
+
+---
 
 ##  [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejercicio 2 [➡️](./Ejercicio_2.md)
 
