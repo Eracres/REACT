@@ -1,5 +1,7 @@
 # 🧪 Ejemplo 3: Input controlado
 
+Este componente captura el valor de un input de texto y lo muestra en tiempo real.
+
 ```jsx
 function FormularioNombre() {
   const [nombre, setNombre] = useState("");
@@ -20,21 +22,23 @@ function FormularioNombre() {
 
 ✅ ¿Qué hace este componente?
 
-* Controla un campo de entrada (input) mediante el estado.
-* Muestra el valor actualizado del input en tiempo real.
+* Controla un input con estado.
+* Muestra el valor escrito por el usuario en tiempo real.
 
 🧠 ¿Qué conceptos aplica?
 
-* Inputs controlados con `useState`.
-* Eventos `onChange`.
+* Inputs controlados.
+* `onChange` para capturar eventos de entrada.
 
-✅ ¿Qué puedes aprender de esto?
+📌 Ejemplo de uso:
 
-* Cómo capturar y mostrar datos escritos por el usuario.
+```jsx
+<FormularioNombre />
+```
 
 💡 Variaciones sugeridas:
 
-Agregar una validación o limpiar el campo al enviar.
+Validar el input o limpiar el campo después de cierta acción.
 
 ---
 
