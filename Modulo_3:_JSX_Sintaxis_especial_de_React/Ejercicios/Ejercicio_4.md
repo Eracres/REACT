@@ -5,8 +5,6 @@ Practicar el uso de props booleanas y operadores ternarios dentro de JSX para mo
 
 Este ejercicio es ideal para aprender cómo adaptar el contenido mostrado según una condición lógica recibida como prop.
 
----
-
 ## 📝 Instrucciones:
 1. Crea un componente llamado `ComponenteCondicional`.
 2. Recibe una prop llamada `admin`.
