@@ -1,5 +1,7 @@
 # 🧪 Ejemplo 5: Toggle de modo claro/oscuro
 
+Este componente alterna entre un fondo claro y uno oscuro.
+
 ```jsx
 function ModoOscuro() {
   const [modo, setModo] = useState("claro");
@@ -23,21 +25,22 @@ function ModoOscuro() {
 
 ✅ ¿Qué hace este componente?
 
-* Alterna entre dos temas: claro y oscuro.
-* Aplica estilos en línea según el modo.
+* Cambia el tema visual de claro a oscuro.
 
 🧠 ¿Qué conceptos aplica?
 
+* Estilos condicionales.
 * Estado con strings.
-* Estilos dinámicos en React.
 
-✅ ¿Qué puedes aprender de esto?
+📌 Ejemplo de uso:
 
-* Cómo cambiar el diseño visual de un componente con estado.
+```jsx
+<ModoOscuro />
+```
 
 💡 Variaciones sugeridas:
 
-Agregar un ícono según el modo o guardar la preferencia en localStorage.
+Guardar el modo en localStorage.
 
 ---
 
