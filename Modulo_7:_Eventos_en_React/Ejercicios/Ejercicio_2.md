@@ -13,6 +13,6 @@ Contar la cantidad de caracteres escritos en un input de texto.
 
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](./Ejercicio_2.md)
-## [📄 Modulo 6](../Modulo_6.md)
+## [⬅️](./Ejercicio_1.md) Ejercicio 1 - Ejercicio 3 [➡️](./Ejercicio_3.md)
+## [📄 Modulo 7](../Modulo_7.md)
 ## [🏠 Inicio](../../README.md)
