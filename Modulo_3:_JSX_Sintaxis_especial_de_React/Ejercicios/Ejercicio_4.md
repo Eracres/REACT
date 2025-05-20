@@ -1,10 +1,18 @@
-# 🧩 Ejercicio 4 (Bonus):
+# 📋 Ejercicio 4 (Bonus): ComponenteCondicional con operador ternario
 
-Crea un componente ComponenteCondicional que:
-* Reciba una prop llamada admin
-* Si admin es true, muestra: "Tienes acceso total"
-* Si false, muestra: "Acceso limitado"
-* Usa un operador ternario dentro del JSX
+## 🎯 Objetivo:
+Practicar el uso de props booleanas y operadores ternarios dentro de JSX para mostrar contenido condicional.
+
+Este ejercicio es ideal para aprender cómo adaptar el contenido mostrado según una condición lógica recibida como prop.
+
+---
+
+## 📝 Instrucciones:
+1. Crea un componente llamado `ComponenteCondicional`.
+2. Recibe una prop llamada `admin`.
+3. Dentro del `return`, usa un operador ternario para mostrar:
+   - `"Tienes acceso total"` si `admin` es `true`.
+   - `"Acceso limitado"` si `admin` es `false`.
 
 ---
 
