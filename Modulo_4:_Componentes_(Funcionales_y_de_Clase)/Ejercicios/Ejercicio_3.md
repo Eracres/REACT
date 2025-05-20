@@ -16,8 +16,6 @@ Hola, [usuario]. ¡Bienvenido de nuevo!
 reemplazando `[usuario]` por el valor recibido como prop.
 4. Usa el componente al menos dos veces dentro de `App.js` con distintos nombres.
 
----
-
 ## 💡 Ejemplo de uso:
 
 ```jsx
