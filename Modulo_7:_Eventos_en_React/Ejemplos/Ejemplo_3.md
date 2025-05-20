@@ -41,8 +41,6 @@ Agregar validaciones condicionales.
 
 ---
 
----
-
 ## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
 
 ## [📄 Modulo 7](../Modulo_7.md) 
