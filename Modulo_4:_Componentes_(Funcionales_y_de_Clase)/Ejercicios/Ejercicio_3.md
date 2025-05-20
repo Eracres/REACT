@@ -18,6 +18,15 @@ reemplazando `[usuario]` por el valor recibido como prop.
 
 ---
 
+## 💡 Ejemplo de uso:
+
+```jsx
+<MensajeBienvenida usuario="María" />
+<MensajeBienvenida usuario="Carlos" />
+```
+
+---
+
 ##  [⬅️](../Ejercicios/Ejercicio_2.md) Ejercicio 2 - Ejercicio 4 [➡️](./Ejercicio_4.md)
 
 ## [📄 Modulo 4](../Modulo_4.md) 
