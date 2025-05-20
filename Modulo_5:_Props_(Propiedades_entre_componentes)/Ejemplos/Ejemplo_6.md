@@ -48,7 +48,7 @@ Y úsalo así:
 
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_5.md) Ejemplo 5 - Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md)
+## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md)
 
 ## [📄 Modulo 5](../Modulo_5.md) 
 
