@@ -14,8 +14,6 @@ Este ejercicio te permitirá construir un contenedor genérico con título y con
 4. Muestra los `children` dentro de un `<div>` debajo del título.
 5. Usa este componente al menos una vez envolviendo un párrafo o cualquier otro contenido HTML.
 
----
-
 ## 💡 Ejemplo de uso:
 
 ```jsx
