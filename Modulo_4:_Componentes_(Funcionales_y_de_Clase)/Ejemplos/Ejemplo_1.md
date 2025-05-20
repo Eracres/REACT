@@ -51,7 +51,7 @@ function Tarjeta({ titulo }) {
 
 ## Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md)
 
-## [📄 Modulo 4](../Modulo_4.md) 
+## [📄 Modulo 6](../Modulo_6.md) 
 
 ## [🏠 Inicio](../../README.md) 
 
