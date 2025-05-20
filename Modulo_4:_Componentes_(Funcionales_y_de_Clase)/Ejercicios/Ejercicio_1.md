@@ -17,7 +17,7 @@ Este ejercicio permite familiarizarte con la estructura básica de un componente
 
 ---
 
-##  [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejercicio 2 [➡️](./Ejercicio_2.md)
+##  [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](./Ejercicio_2.md)
 
 ## [📄 Modulo 4](../Modulo_4.md) 
 
