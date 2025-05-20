@@ -1,3 +1,4 @@
+
 # 🧪 Ejemplo 2: Mostrar/Ocultar texto
 
 ```jsx
@@ -17,8 +18,22 @@ function MostrarOcultar() {
 
 ✅ ¿Qué hace este componente?
 
-* Usa un booleano para mostrar u ocultar contenido.
-* Cambia dinámicamente el texto del botón.
+* Controla la visibilidad de un texto con un booleano.
+* Cambia el texto del botón de forma dinámica.
+
+🧠 ¿Qué conceptos aplica?
+
+* `useState` con valores booleanos.
+* Renderizado condicional.
+* Operador ternario para mostrar el texto del botón.
+
+✅ ¿Qué puedes aprender de esto?
+
+* Cómo usar una variable booleana en estado para controlar la interfaz.
+
+💡 Variaciones sugeridas:
+
+Podrías mostrar diferentes bloques de contenido según el estado del booleano.
 
 ---
 
