@@ -5,8 +5,6 @@ Trabajar con objetos en React y aplicar estilos en línea dentro de JSX.
 
 Este ejercicio te permitirá consolidar conocimientos sobre cómo manejar estructuras de datos dentro de un componente y cómo personalizar su presentación visual sin usar archivos CSS externos.
 
----
-
 ## 📝 Instrucciones:
 1. Crea un componente llamado `TarjetaUsuario`.
 2. Dentro del componente, declara un objeto llamado `usuario`:
