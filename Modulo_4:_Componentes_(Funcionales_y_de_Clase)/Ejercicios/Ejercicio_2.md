@@ -19,6 +19,8 @@ Este ejercicio te permitirá crear tarjetas de producto que cambien su contenido
      - “No disponible ❌” si `disponible` es `false`.
 4. Usa el componente al menos dos veces dentro de `App.js` con productos distintos.
 
+## 💡 Ejemplo de uso:
+
 ```jsx
 <TarjetaProducto nombre="Auriculares" precio={29.99} disponible={true} />
 <TarjetaProducto nombre="Teclado" precio={49.99} disponible={false} />
