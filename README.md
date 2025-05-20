@@ -10,7 +10,7 @@
 4. [Componentes (Funcionales y de Clase)](./Modulo_4:_Componentes_(Funcionales_y_de_Clase)/Modulo_4.md)
 5. [Props (Propiedades entre componentes)](./Modulo_5:_Props_(Propiedades_entre_componentes)/Modulo_5.md)
 6. [Estado (useState)](./Modulo_6:_Estado_con_useState/Modulo_6.md)
-7. [Eventos en React](#modulo-7-Eventos-en-React)
+7. [Eventos en React](./Modulo_7:_Eventos_en_React)
 8. [Ciclo de vida y useEffect](#modulo-8-useEffect-ciclo-de-vida-y-efectos-secundarios) 
 9. [Estilos en React](#modulo-9-estilos-en-react)
 10. [Listas y claves](#modulo-10-listas-y-claves)
@@ -25,58 +25,6 @@
 
 ---
 
-<a name="modulo-6-estado-con-usestate"></a>
-## 📘 Módulo 6: Estado con useState
-
-### ❓ ¿Qué es el estado en React?
-
-El estado es como la "memoria" de un componente. Permite que React guarde y actualice información dinámica que puede cambiar con el tiempo: clics, entradas de usuario, datos traídos de una API, etc.
-En componentes funcionales, usamos el hook ```useState()``` para gestionar el estado.
-
-### ❓ ¿Qué es un hook?
-
-Un hook es una función especial de React que permite usar características avanzadas (como estado, ciclo de vida, etc.) en componentes funcionales. ```useState``` es el más básico y usado.
-
-### 📦 Sintaxis de useState
-
-```
-const [estado, setEstado] = useState(valorInicial);
-```
-
-* ```estado```: la variable que contiene el valor actual.
-* ```setEstado```: función que usamos para actualizar el valor.
-* ```useState(valorInicial)```: le pasamos el valor con el que queremos empezar.
-
-
-### 🧪 Ejemplo básico: un contador
-
-```jsx
-import { useState } from "react";
-
-function Contador() {
-  const [contador, setContador] = useState(0);
-
-  return (
-    <div>
-      <p>Contador: {contador}</p>
-      <button onClick={() => setContador(contador + 1)}>Sumar</button>
-      <button onClick={() => setContador(0)}>Reiniciar</button>
-    </div>
-  );
-}
-
-```
-Este componente guarda el número actual del contador en su estado, y lo actualiza al hacer clic en los botones.
-
-### 🎯 Ejercicio para ti:
-
-1. Crea un componente llamado Likes.
-2. Usa useState para llevar un conteo de "me gusta".
-3. Agrega un botón con el texto “👍 Me gusta”.
-4. Cada clic debe incrementar el número de likes.
-5. Muestra el texto: “Este post tiene X me gusta”.
-
----
 <a name="modulo-7-Eventos-en-React"></a>
 ## 📘 Módulo 7: Eventos en React
 
