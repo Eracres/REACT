@@ -56,6 +56,22 @@ Cuando se produce un evento, React ejecuta una **función manejadora** (handler)
 
 ---
 
+## 🧪 Ejemplos básicos:
+
+* [📝Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📝Ejemplo 2](./Ejemplos/Ejemplo_2.md)
+* [📝Ejemplo 3](./Ejemplos/Ejemplo_3.md)
+* [📝Ejemplo 4](./Ejemplos/Ejemplo_4.md)
+* [📝Ejemplo 5](./Ejemplos/Ejemplo_5.md)
+* [📝Ejemplo 6](./Ejemplos/Ejemplo_6.md)
+
+## 🎯 Ejercicios para ti:
+
+* [📋Ejercicio 1](./Ejercicios/Ejercicio_1.md)
+* [📋Ejercicio 2](./Ejercicios/Ejercicio_2.md)
+* [📋Ejercicio 3](./Ejercicios/Ejercicio_3.md)
+* [📋Ejercicio 4](./Ejercicios/Ejercicio_4.md)
+
 ---
 
 ## [⬅️](../Modulo_6:_Estado_con_useState/Modulo_6.md) Módulo 6 ... Módulo 8 [➡️](../Modulo_8:_useEffect_–_Ciclo_de_vida_y_efectos_secundarios/Modulo_8.md)
