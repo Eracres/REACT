@@ -11,6 +11,9 @@ Este ejercicio permite familiarizarte con la estructura básica de un componente
    - Un título `<h2>` con el texto: “Perfil del usuario”.
    - Un párrafo `<p>` con el nombre de un usuario ficticio (ej. Juan Pérez).
 3. Importa y usa el componente dentro de `App.js` con la etiqueta:
+
+## 💡 Ejemplo de uso:
+
 ```jsx
 <PerfilUsuario />
 ```
