@@ -77,6 +77,6 @@ Esto permite que tus componentes respondan en tiempo real a las acciones del usu
 
 ---
 
-## [⬅️](../Modulo_5:_Props_(Propiedades_entre_componentes)/Modulo_5.md) Módulo 3 ... Módulo 7 [➡️](../Modulo_6:_Estado_con_useState/Modulo_6.md)
+## [⬅️](../Modulo_5:_Props_(Propiedades_entre_componentes)/Modulo_5.md) Módulo 5 ... Módulo 7 [➡️](../Modulo_6:_Estado_con_useState/Modulo_6.md)
 
 ## [🏠 Inicio](../README.md)
