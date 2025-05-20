@@ -1,9 +1,9 @@
 # 📋 Ejercicio 2: Fragmentos y múltiples elementos
 
-### 🎯 Objetivo:
+## 🎯 Objetivo:
 Aprender a retornar múltiples elementos con fragmentos.
 
-### 📝 Instrucciones:
+## 📝 Instrucciones:
 Crea un componente SumaJSX que:
 * Declare dos variables a = 5, b = 7
 * Muestra un párrafo que diga:
