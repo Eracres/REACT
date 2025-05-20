@@ -1,5 +1,7 @@
 # 🧪 Ejemplo 4: Lista dinámica de tareas
 
+Este componente permite al usuario agregar tareas a una lista.
+
 ```jsx
 function ListaTareas() {
   const [tareas, setTareas] = useState([]);
@@ -30,21 +32,23 @@ function ListaTareas() {
 
 ✅ ¿Qué hace este componente?
 
-* Permite ingresar tareas en una lista.
+* Agrega tareas a una lista desde el input.
 * Usa dos estados: uno para el input y otro para la lista.
 
 🧠 ¿Qué conceptos aplica?
 
-* `useState` con arrays.
-* Manipulación de listas con `map`.
+* Manejo de arrays con `useState`.
+* Renderizado con `.map`.
 
-✅ ¿Qué puedes aprender de esto?
+📌 Ejemplo de uso:
 
-* Cómo gestionar arrays de datos con React.
+```jsx
+<ListaTareas />
+```
 
 💡 Variaciones sugeridas:
 
-Agregar la posibilidad de eliminar tareas o editar.
+Permitir eliminar o editar tareas.
 
 ---
 
