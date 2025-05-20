@@ -86,8 +86,6 @@ useEffect(() => {
 
 ---
 
-## [⬅️](../Modulo_7:_Eventos_en_React
-/Modulo_7.md) Módulo 7 ... Módulo 9 [➡️](../Modulo_9:_Estilos_en_React
-/Modulo_9.md)
+## [⬅️](../Modulo_7:_Eventos_en_React/Modulo_7.md) Módulo 7 ... Módulo 9 [➡️](../Modulo_9:_Estilos_en_React/Modulo_9.md)
 
 ## [🏠 Inicio](../README.md)
