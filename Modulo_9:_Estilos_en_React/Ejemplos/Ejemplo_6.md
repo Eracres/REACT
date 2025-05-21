@@ -30,5 +30,5 @@ function BotonTailwind() {
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_5.md) Ejemplo 5 - Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md) 
-## [📄 Modulo 10](../Modulo_10.md)
+## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
