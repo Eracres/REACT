@@ -10,6 +10,6 @@ Utilizar un archivo `.module.css` para encapsular estilos.
 4. Importa y muestra el componente en `App.js`.
 ---
 
-## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 10 [➡️](../Modulo_10.md) 
-## [📄 Modulo 9](../Modulo_9.md)
+## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 11 [➡️](../../Modulo_11:_Formularios_en_React/Modulo_11.md) 
+## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
