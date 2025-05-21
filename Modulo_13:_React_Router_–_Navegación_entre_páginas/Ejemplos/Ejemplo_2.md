@@ -40,6 +40,6 @@ function AppRouter() {
 ```
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - [➡️](../Ejemplos/Ejemplo_3.md) Ejemplo 3
+## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md) 
 ## [📄 Modulo 13](../Modulo_13.md)
 ## [🏠 Inicio](../../README.md)
