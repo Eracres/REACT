@@ -38,6 +38,6 @@ function ListaFrutas() {
 - Reemplazar index por un `id` único.
 ---
 
-## [⬅️](../../Modulo_9:_Estilos_en_React/Modulo_9.md/Modulo_10.md) Módulo 9 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
+## [⬅️](../../Modulo_9:_Estilos_en_React/Modulo_9.md) Módulo 9 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
