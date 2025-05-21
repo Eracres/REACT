@@ -1,45 +1,35 @@
-# 🧪 Ejemplo 3: Estilo dinámico con estado
+# 🧪 Ejemplo 3: Lista dinámica 3
 
 ```jsx
-import { useState } from "react";
-
-function BotonInteractivo() {
-  const [activo, setActivo] = useState(false);
-
+function Lista3() {
+  const datos = ["Elemento A", "Elemento B", "Elemento C"];
   return (
-    <button
-      style={{
-        backgroundColor: activo ? "limegreen" : "gray",
-        color: "white",
-        padding: "10px",
-      }}
-      onClick={() => setActivo(!activo)}
-    >
-      {activo ? "Activo" : "Inactivo"}
-    </button>
+    <ul>
+      {datos.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
   );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Cambia el estilo del botón al hacer clic.
+* Genera una lista con elementos ficticios.
+* Usa `index` como key.
 
 🧠 ¿Qué conceptos aplica?
 
-* `useState` para controlar estilos condicionales.
+* Renderizado dinámico con `.map()` y `key`.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<BotonInteractivo />
+<Lista3 />
 ```
-
-💡 Variaciones sugeridas:
-
-* Cambiar más propiedades como el borde o agregar iconos.
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md) 
+## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - [➡️](../Ejemplos/Ejemplo_4.md) Ejemplo 4
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
+
