@@ -47,6 +47,6 @@ function ListaUsuarios() {
 ```
 ---
 
-## [⬅️](../../Modulo_13:_React_Router_–_Navegación_entre_páginas/Modulo_13.md) Módulo 13 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [⬅️](../../Modulo_13:_React_Router_–_Navegación_entre_páginas/Modulo_13.md) Módulo 13 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 14](../Modulo_14.md)
 ## [🏠 Inicio](../../README.md)
