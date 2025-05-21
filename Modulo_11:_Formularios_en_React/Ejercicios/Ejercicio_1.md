@@ -11,7 +11,7 @@ Practicar múltiples inputs controlados y manejo de eventos `onSubmit`.
 5. Limpia los campos después de enviarlos.
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - [➡️](../Ejercicios/Ejercicio_2.md) Ejercicio 2
+## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](../Ejercicios/Ejercicio_2.md) 
 ## [📄 Modulo 11](../Modulo_11.md)
 ## [🏠 Inicio](../../README.md)
 
