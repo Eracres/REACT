@@ -1,33 +1,42 @@
-# 🧪 Ejemplo 2: CSS tradicional importado
+# 🧪 Ejemplo 2: Lista de productos con objeto
 
 ```jsx
-import "./estilos.css";
+const productos = [
+  { id: 1, nombre: "Camisa", precio: 25 },
+  { id: 2, nombre: "Pantalón", precio: 40 },
+  { id: 3, nombre: "Zapatos", precio: 60 }
+];
 
-function TituloClasico() {
-  return <h2 className="titulo">¡Estilo clásico con CSS externo!</h2>;
+function ListaProductos() {
+  return (
+    <ul>
+      {productos.map((producto) => (
+        <li key={producto.id}>
+          {producto.nombre} - ${producto.precio}
+        </li>
+      ))}
+    </ul>
+  );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Aplica una clase desde un archivo `.css` importado.
+* Muestra una lista de productos con nombre y precio.
+* Usa `key={producto.id}` que es una buena práctica.
 
 🧠 ¿Qué conceptos aplica?
 
-* Importación de archivos CSS.
-* Uso de `className` en lugar de `class`.
+* Iteración sobre arrays de objetos.
+* Uso de propiedades internas como key.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<TituloClasico />
+<ListaProductos />
 ```
-
-💡 Variaciones sugeridas:
-
-* Aplicar una animación CSS simple.
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_1.md) Ejemplo 1 - Ejemplo 3 [➡️](../Ejemplos/Ejemplo_3.md) 
-## [📄 Modulo 9](../Modulo_9.md)
+## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
