@@ -92,7 +92,7 @@ Para la mayoría de proyectos de React modernos, **Vercel o Netlify** son las op
 
 ---
 
-##   [⬅️](../../Modulo_17:_Introducción_a_Redux/Modulo17.md) Módulo 17 
+##   [⬅️](../Modulo_17:_Introducción_a_Redux/Modulo17.md) Módulo 17 
 ## [🏠 Inicio](../README.md)
 
 
