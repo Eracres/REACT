@@ -13,7 +13,7 @@ Actualizar el estado del componente cada segundo usando `useEffect`.
 
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - [➡️](../README.md) Inicio
+## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](../Ejercicios/Ejercicio_2.md) 
 ## [📄 Modulo 8](../Modulo_8.md)
 ## [🏠 Inicio](../../README.md)
 
