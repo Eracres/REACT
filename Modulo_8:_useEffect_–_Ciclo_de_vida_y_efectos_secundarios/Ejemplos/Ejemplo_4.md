@@ -1,25 +1,26 @@
-# 🧪 Ejemplo 3: Cambio de título con useEffect
+# 🧪 Ejemplo 4: Guardar en localStorage
 
-Este componente cambia el título del documento según un estado.
+Este componente guarda el nombre en `localStorage` cada vez que se modifica.
 
 ```jsx
 import { useEffect, useState } from "react";
 
-function TituloDinamico() {
-  const [titulo, setTitulo] = useState("React App");
+function NombrePersistente() {
+  const [nombre, setNombre] = useState("");
 
   useEffect(() => {
-    document.title = titulo;
-  }, [titulo]);
+    localStorage.setItem("nombre", nombre);
+  }, [nombre]);
 
   return (
     <div>
       <input
         type="text"
-        value={titulo}
-        onChange={(e) => setTitulo(e.target.value)}
+        placeholder="Tu nombre"
+        value={nombre}
+        onChange={(e) => setNombre(e.target.value)}
       />
-      <p>Título actualizado: {titulo}</p>
+      <p>Nombre guardado: {nombre}</p>
     </div>
   );
 }
@@ -27,26 +28,26 @@ function TituloDinamico() {
 
 ✅ ¿Qué hace este componente?
 
-* Actualiza el `document.title` del navegador cuando cambia el input.
+* Guarda el valor del input en el almacenamiento local del navegador.
 
 🧠 ¿Qué conceptos aplica?
 
-* Acceso al DOM mediante `useEffect`.
-* Dependencias específicas para evitar renders innecesarios.
+* Sincronización con APIs del navegador (`localStorage`).
+* `useEffect` dependiente de estado.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<TituloDinamico />
+<NombrePersistente />
 ```
 
 💡 Variaciones sugeridas:
 
-Agregar un botón para resetear el título.
+Leer el nombre al iniciar con otro `useEffect`.
 
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md)
+## [⬅️](../Ejemplos/Ejemplo_3.md) Ejemplo 3 - Ejemplo 5 [➡️](../Ejemplos/Ejemplo_5.md)
 
 ## [📄 Modulo 8](../Modulo_8.md) 
 
