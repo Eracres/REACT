@@ -43,6 +43,6 @@ function ContadorConLifting() {
 ```
 ---
 
-## [⬅️](../Modulo_12.md) Módulo 12 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
+## [⬅️](../../Modulo_11:_Formularios_en_React/Modulo_11.md) Módulo 11 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 12](../Modulo_12.md)
 ## [🏠 Inicio](../../README.md)
