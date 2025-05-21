@@ -29,7 +29,7 @@ function Lista3() {
 ```
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - [➡️](../Ejemplos/Ejemplo_4.md) Ejemplo 4
+## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md) 
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
 
