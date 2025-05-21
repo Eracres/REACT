@@ -16,5 +16,5 @@ Aplicar estilos directamente desde JSX para simular una alerta visual.
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejercicio 2 [➡️](../Ejercicios/Ejercicio_2.md) 
-## [📄 Modulo 9](../Modulo_9.md)
+## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
