@@ -14,7 +14,7 @@ Este comando inicializa Git en tu proyecto, agrega y sube tu código a GitHub.
 
 ---
 
-## [⬅️](../../Modulo_17:_Introducción_a_Redux/Modulo17.md) Módulo 17 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [⬅️](../../Modulo_17:_Introducción_a_Redux/Modulo17.md) Módulo 17 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 18](../Modulo_18.md)
 ## [🏠 Inicio](../../README.md)
 
