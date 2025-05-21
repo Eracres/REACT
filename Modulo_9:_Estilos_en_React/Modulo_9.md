@@ -123,3 +123,25 @@ Ejemplo con Tailwind:
 - Centraliza los colores y fuentes para mantener consistencia.
 
 ---
+
+## 🧪 Ejemplos básicos:
+
+* [📝Ejemplo 1](./Ejemplos/Ejemplo_1.md)
+* [📝Ejemplo 2](./Ejemplos/Ejemplo_2.md)
+* [📝Ejemplo 3](./Ejemplos/Ejemplo_3.md)
+* [📝Ejemplo 4](./Ejemplos/Ejemplo_4.md)
+* [📝Ejemplo 5](./Ejemplos/Ejemplo_5.md)
+* [📝Ejemplo 6](./Ejemplos/Ejemplo_6.md)
+
+## 🎯 Ejercicios para ti:
+
+* [📋Ejercicio 1](./Ejercicios/Ejercicio_1.md)
+* [📋Ejercicio 2](./Ejercicios/Ejercicio_2.md)
+* [📋Ejercicio 3](./Ejercicios/Ejercicio_3.md)
+* [📋Ejercicio 4](./Ejercicios/Ejercicio_4.md)
+
+---
+
+## [⬅️](../Modulo_8:_useEffect_–_Ciclo_de_vida_y_efectos_secundarios/Modulo_8.md) Módulo 8 ... Módulo 10 [➡️](../Modulo_10:_Listas_y_Claves/Modulo_10.md)
+
+## [🏠 Inicio](../README.md)
