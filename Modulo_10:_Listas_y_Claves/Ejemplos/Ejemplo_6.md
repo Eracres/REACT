@@ -1,32 +1,32 @@
-# 🧪 Ejemplo 6: Estilo con Tailwind CSS
+# 🧪 Ejemplo 6: Lista dinámica 6
 
 ```jsx
-function BotonTailwind() {
+function Lista6() {
+  const datos = ["Elemento A", "Elemento B", "Elemento C"];
   return (
-    <button className="bg-blue-500 text-white px-4 py-2 rounded">
-      Botón Tailwind
-    </button>
+    <ul>
+      {datos.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
   );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Usa clases utilitarias de Tailwind para estilizar un botón.
+* Genera una lista con elementos ficticios.
+* Usa `index` como key.
 
 🧠 ¿Qué conceptos aplica?
 
-* Utilización de framework externo para estilos.
+* Renderizado dinámico con `.map()` y `key`.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<BotonTailwind />
+<Lista6 />
 ```
-
-💡 Variaciones sugeridas:
-
-* Cambiar el color de fondo usando props.
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_5.md) Ejemplo 5 - Ejercicio 1 [➡️](../Ejercicios/Ejercicio_1.md) 
