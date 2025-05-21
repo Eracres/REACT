@@ -10,6 +10,6 @@ Permitir la edición de un elemento dentro de una lista mediante lifting state.
 4. Usa lifting state para manejar el valor y actualizar la lista.
 ---
 
-## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 13 [➡️](../Modulo_13.md) 
+## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 13 [➡️](../../Modulo_13:_React_Router_–_Navegación_entre_páginas/Modulo_13.md) 
 ## [📄 Modulo 12](../Modulo_12.md)
 ## [🏠 Inicio](../../README.md)
