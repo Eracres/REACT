@@ -1,35 +1,43 @@
-# 🧪 Ejemplo 1: Estilo en línea básico
+# 🧪 Ejemplo 1: Lista de frutas con index
 
 ```jsx
-function MensajeEstilizado() {
+const frutas = ["🍎 Manzana", "🍌 Banana", "🍇 Uva", "🍊 Naranja"];
+
+function ListaFrutas() {
   return (
-    <p style={{ color: "tomato", fontSize: "1.2rem" }}>
-      ¡Este párrafo tiene estilo en línea!
-    </p>
+    <ul>
+      {frutas.map((fruta, index) => (
+        <li key={index}>{fruta}</li>
+      ))}
+    </ul>
   );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Muestra un párrafo con un estilo personalizado directamente aplicado con `style`.
+* Muestra una lista de frutas a partir de un array.
+* Usa `.map()` para iterar y renderizar.
+* Usa `index` como key (válido si la lista no cambia).
 
 🧠 ¿Qué conceptos aplica?
 
-* Estilos en línea con sintaxis de objeto.
-* Propiedad en camelCase.
+* Renderizado dinámico con `.map()`.
+* Uso de `key` para evitar errores en React.
+* Componentes de lista en JSX.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<MensajeEstilizado />
+<ListaFrutas />
 ```
 
 💡 Variaciones sugeridas:
 
-* Cambiar el color o añadir una prop para el color.
+- Probar con más frutas.
+- Reemplazar index por un `id` único.
 ---
 
-## [⬅️](../Modulo_9.md) Módulo 9 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
-## [📄 Modulo 9](../Modulo_9.md)
+## [⬅️](../Modulo_10.md) Módulo 10 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
