@@ -11,5 +11,5 @@ Cambiar estilos dinámicamente usando `useState`.
 ---
 
 ## [⬅️](../Ejercicios/Ejercicio_1.md) Ejercicio 1 - Ejercicio 3 [➡️](../Ejercicios/Ejercicio_3.md) 
-## [📄 Modulo 9](../Modulo_9.md)
+## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
