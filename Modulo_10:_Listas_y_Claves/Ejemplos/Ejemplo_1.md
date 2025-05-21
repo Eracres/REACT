@@ -30,6 +30,6 @@ function MensajeEstilizado() {
 * Cambiar el color o añadir una prop para el color.
 ---
 
-## [⬅️](../Modulo_9.md) Módulo 9 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [⬅️](../Modulo_9.md) Módulo 9 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
