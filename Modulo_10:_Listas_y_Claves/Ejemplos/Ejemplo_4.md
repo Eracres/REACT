@@ -1,38 +1,36 @@
-# 🧪 Ejemplo 4: CSS Modules
+# 🧪 Ejemplo 4: Lista dinámica 4
 
 ```jsx
-import styles from "./Caja.module.css";
-
-function CajaEstilizada() {
+function Lista4() {
+  const datos = ["Elemento A", "Elemento B", "Elemento C"];
   return (
-    <div className={styles.caja}>
-      Caja estilizada con CSS Modules
-    </div>
+    <ul>
+      {datos.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
   );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Usa un estilo encapsulado que no afecta a otros componentes.
+* Genera una lista con elementos ficticios.
+* Usa `index` como key.
 
 🧠 ¿Qué conceptos aplica?
 
-* Importación con `import styles from`.
-* Aplicación de clase desde módulo.
+* Renderizado dinámico con `.map()` y `key`.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<CajaEstilizada />
+<Lista4 />
 ```
-
-💡 Variaciones sugeridas:
-
-* Usar múltiples clases del módulo con `join`.
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_3.md) Ejemplo 3 - Ejemplo 5 [➡️](../Ejemplos/Ejemplo_5.md) 
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
+
 
