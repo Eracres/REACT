@@ -9,6 +9,6 @@ Usar `useNavigate()` para redirigir desde el código.
 3. Usa el hook `useNavigate()` para realizar la navegación.
 ---
 
-## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 14 [➡️](../Modulo_14:_Consumo_de_APIs_con_fetch_o_Axios/Modulo_14.md)
+## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 14 [➡️](../../Modulo_14:_Consumo_de_APIs_con_fetch_o_Axios/Modulo_14.md)
 ## [📄 Modulo 13](../Modulo_13.md)
 ## [🏠 Inicio](../../README.md)
