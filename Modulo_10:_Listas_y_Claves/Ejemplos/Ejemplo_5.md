@@ -1,33 +1,32 @@
-# 🧪 Ejemplo 5: Estilo condicional por props
+ 🧪 Ejemplo 5: Lista dinámica 5
 
 ```jsx
-function Etiqueta({ importante }) {
-  const estilo = {
-    color: importante ? "red" : "black",
-    fontWeight: importante ? "bold" : "normal",
-  };
-
-  return <span style={estilo}>¡Etiqueta dinámica!</span>;
+function Lista5() {
+  const datos = ["Elemento A", "Elemento B", "Elemento C"];
+  return (
+    <ul>
+      {datos.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
+  );
 }
 ```
 
 ✅ ¿Qué hace este componente?
 
-* Aplica estilos diferentes dependiendo del valor de una prop.
+* Genera una lista con elementos ficticios.
+* Usa `index` como key.
 
 🧠 ¿Qué conceptos aplica?
 
-* Props + estilos dinámicos.
+* Renderizado dinámico con `.map()` y `key`.
 
 📌 Ejemplo de uso:
 
 ```jsx
-<Etiqueta importante={true} />
+<Lista5 />
 ```
-
-💡 Variaciones sugeridas:
-
-* Añadir icono si es importante.
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejemplo 6 [➡️](../Ejemplos/Ejemplo_6.md) 
