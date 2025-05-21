@@ -11,6 +11,6 @@ Crear y utilizar un hook reutilizable que maneje un contador.
 5. Muestra el número y un botón para incrementarlo.
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - [➡️](../Ejercicios/Ejercicio_2.md) Ejercicio 2
+## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](../Ejercicios/Ejercicio_2.md) 
 ## [📄 Modulo 15](../Modulo_15.md)
 ## [🏠 Inicio](../../README.md)
