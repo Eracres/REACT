@@ -11,5 +11,6 @@ Utilizar un archivo `.module.css` para encapsular estilos.
 ---
 
 ## [⬅️](../Ejercicios/Ejercicio_3.md) Ejercicio 3 - Módulo 11 [➡️](../../Modulo_11:_Formularios_en_React/Modulo_11.md) 
-## [📄 Modulo 10](../Modulo_10.md)
+## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
+
