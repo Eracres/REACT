@@ -38,6 +38,6 @@ function ListaFrutas() {
 - Reemplazar index por un `id` único.
 ---
 
-## [⬅️](../Modulo_10.md) Módulo 10 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [⬅️](../Modulo_10.md) Módulo 10 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
