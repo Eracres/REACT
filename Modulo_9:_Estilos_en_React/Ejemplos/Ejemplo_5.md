@@ -31,5 +31,5 @@ function Etiqueta({ importante }) {
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_4.md) Ejemplo 4 - Ejemplo 6 [➡️](../Ejemplos/Ejemplo_6.md) 
-## [📄 Modulo 10](../Modulo_10.md)
+## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
