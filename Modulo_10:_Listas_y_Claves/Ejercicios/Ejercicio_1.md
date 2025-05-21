@@ -1,18 +1,15 @@
-# 📋 Ejercicio 1: Alerta visual con estilo en línea
-
-Este ejercicio te ayudará a practicar los estilos en línea con JSX.
+# 📋 Ejercicio 1: Lista de tareas
 
 ## 🎯 Objetivo:
-Aplicar estilos directamente desde JSX para simular una alerta visual.
+Practicar la creación de listas dinámicas con `.map()` y el uso correcto de `key`.
 
 ## 📝 Instrucciones:
-1. Crea un componente llamado `Alerta`.
-2. Usa estilos en línea para mostrar un mensaje de advertencia.
-3. Estilos sugeridos:
-   - Fondo: amarillo
-   - Texto: rojo oscuro
-   - Padding: `1rem`
-4. Muestra el mensaje “¡Cuidado! Esta es una alerta importante”.
+1. Crea un componente llamado `ListaTareas`.
+2. Declara un array de objetos con `id` y `texto`.
+3. Usa `.map()` para renderizar cada tarea dentro de una lista `<ul>`.
+4. Aplica la propiedad `key={tarea.id}` en cada `<li>`.
+
+---
 ---
 
 ## [⬅️](../Ejemplos/Ejemplo_6.md) Ejemplo 6 - Ejercicio 2 [➡️](../Ejercicios/Ejercicio_2.md) 
