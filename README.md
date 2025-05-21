@@ -25,5 +25,6 @@
 
 ---
 
+[![Angular](https://angular.io/assets/images/logos/angular/angular.svg)](https://angular.io/)
 
 
