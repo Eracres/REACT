@@ -11,5 +11,5 @@ Aplicar estilos condicionales usando una prop booleana.
 ---
 
 ## [⬅️](../Ejercicios/Ejercicio_2.md) Ejercicio 2 - Ejercicio 4 [➡️](../Ejercicios/Ejercicio_4.md) 
-## [📄 Modulo 10](../Modulo_10.md)
+## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
