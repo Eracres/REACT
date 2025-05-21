@@ -40,7 +40,7 @@ function BotonInteractivo() {
 * Cambiar más propiedades como el borde o agregar iconos.
 ---
 
-## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - [➡️](../Ejemplos/Ejemplo_4.md) Ejemplo 4
+## [⬅️](../Ejemplos/Ejemplo_2.md) Ejemplo 2 - Ejemplo 4 [➡️](../Ejemplos/Ejemplo_4.md) 
 ## [📄 Modulo 9](../Modulo_9.md)
 ## [🏠 Inicio](../../README.md)
 
