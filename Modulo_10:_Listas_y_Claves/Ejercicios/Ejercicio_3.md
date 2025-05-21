@@ -1,15 +1,16 @@
-# 📋 Ejercicio 3: Estilo condicional por prop
+# 📋 Ejercicio 3: Galería de imágenes
 
 ## 🎯 Objetivo:
-Aplicar estilos condicionales usando una prop booleana.
+Renderizar elementos visuales a partir de un array de datos.
 
 ## 📝 Instrucciones:
-1. Crea un componente llamado `TextoImportante`.
-2. Recibe una prop llamada `importante`.
-3. Si `true`, aplica negrita y color rojo.
-4. Si `false`, texto normal en negro.
+1. Crea un componente `Galeria`.
+2. Usa un array de objetos que contengan `id`, `alt` y `url`.
+3. Muestra cada imagen dentro de un `<figure>` con `img` y `figcaption`.
+4. Aplica `key={id}` en cada figura.
 ---
 
 ## [⬅️](../Ejercicios/Ejercicio_2.md) Ejercicio 2 - Ejercicio 4 [➡️](../Ejercicios/Ejercicio_4.md) 
 ## [📄 Modulo 10](../Modulo_10.md)
 ## [🏠 Inicio](../../README.md)
+
