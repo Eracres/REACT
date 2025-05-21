@@ -51,6 +51,6 @@ function AppRouter() {
 ```
 ---
 
-## [⬅️](../Modulo_12:_Lifting_State_Up_y_comunicación_entre_componentes/Modulo_12.md) Módulo 12 - [➡️](../Ejemplos/Ejemplo_2.md) Ejemplo 2
+## [⬅️](../Modulo_12:_Lifting_State_Up_y_comunicación_entre_componentes/Modulo_12.md) Módulo 12 - Ejemplo 2 [➡️](../Ejemplos/Ejemplo_2.md) 
 ## [📄 Modulo 13](../Modulo_13.md)
 ## [🏠 Inicio](../../README.md)
