@@ -25,9 +25,7 @@
 
 ---
 
-<a href="https://github.com/Eracres/Angular">
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="60"/>
-</a>
+#  [🔙](../README.md) Volver a cursos
 
 
 
