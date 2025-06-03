@@ -1,4 +1,4 @@
-# 🧑‍🏫 Curso de React – Desarrollo de Aplicaciones Web con React
+# <img src="https://raw.githubusercontent.com/github/explore/main/topics/react/react.png" alt="React Logo" width="30" style="vertical-align: middle;"/> Curso de React – Desarrollo de Aplicaciones Web con React
 
 ## 🗂️ Temario General del Curso
 
